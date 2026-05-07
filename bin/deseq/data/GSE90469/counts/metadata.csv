@@ -1,0 +1,11 @@
+sample,condition,comparison
+SC1007_mRNA,Mutant,Non-Isogenic
+SC1034_mRNA,Mutant,Non-Isogenic
+SC1041_mRNA,Mutant,Non-Isogenic
+SC1014_mRNA,Control,Non-Isogenic
+SC1015_mRNA,Control,Non-Isogenic
+SC1055_mRNA,Control,Non-Isogenic
+iso_GS_1_mRNA,Mutant,Isogenic
+iso_GS_2_mRNA,Mutant,Isogenic
+iso_MC_1_mRNA,Control,Isogenic
+iso_MC_2_mRNA,Control,Isogenic
