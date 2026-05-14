@@ -18,7 +18,7 @@ suppressPackageStartupMessages({
   library(scales)
 })
 
-source("src/utils.R")
+source("bin/deseq/src/utils/utils.R")
 
 # >>>>>>>>>>>>>>>>>>>>>>>
 # Mínimo de DEGs necessários para tentar ORA (abaixo disso, os resultados não são confiáveis)
@@ -197,7 +197,7 @@ run_enrichment_analysis <- function(
 .plot_go_barplot <- function(ego, target_name, plots_dir) {
   p <- barplot(ego, showCategory = 20) +
     labs(
-      title    = paste("Barplot de Enriquecimento GO —", target_name),
+      title    = paste(target_name, "- Barplot de Enriquecimento GO"),
       subtitle = "Processo Biológico | ORA | Simplificado",
       x        = "Contagem de Genes",
       y        = NULL
@@ -216,7 +216,7 @@ run_enrichment_analysis <- function(
 .plot_go_dotplot <- function(ego, target_name, plots_dir) {
   p <- dotplot(ego, showCategory = 20) +
     labs(
-      title    = paste("Dotplot de Enriquecimento GO —", target_name),
+      title    = paste(target_name, "- Dotplot de Enriquecimento GO"),
       subtitle = "Processo Biológico | ORA | Simplificado",
       x        = "Razão de Genes",
       y        = NULL
@@ -236,7 +236,7 @@ run_enrichment_analysis <- function(
   p <- dotplot(gse, showCategory = 10, split = ".sign") +
     facet_grid(. ~ .sign) +
     labs(
-      title    = paste("GSEA Dotplot —", target_name),
+      title    = paste(target_name, "- GSEA Dotplot"),
       subtitle = "Processo Biológico | Ranqueado pela estatística Wald | Simplificado",
       x        = "Razão de Genes",
       y        = NULL
@@ -273,7 +273,7 @@ run_enrichment_analysis <- function(
   p <- tryCatch(
     ridgeplot(gse, showCategory = 15, fill = "p.adjust") +
       labs(
-        title    = paste("GSEA Ridge Plot —", target_name),
+        title    = paste(target_name, "- GSEA Ridge Plot"),
         subtitle = "Distribuição do ranque dos genes nos conjuntos enriquecidos",
         x        = "Distribuição de Log₂ Fold Change",
         y        = NULL
