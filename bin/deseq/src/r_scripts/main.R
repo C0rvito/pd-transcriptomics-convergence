@@ -25,10 +25,11 @@ cat("  Pipeline de DE de RNA-Seq + Enriquecimento\n")
 cat(format(Sys.time(), "  Iniciado em: %Y-%m-%d %H:%M:%S\n"))
 cat(rep("=", 60), "\n", sep = "")
 
-source("src/utils.R")
-source("src/deseq2_pipeline.R")
-source("src/visualization.R")
-source("src/gsea_pipeline.R")
+# Ajustando caminhos de source relativos à raiz do projeto
+source("bin/deseq/src/utils/utils.R")
+source("bin/deseq/src/r_scripts/deseq2_pipeline.R")
+source("bin/deseq/src/r_scripts/visualization.R")
+source("bin/deseq/src/r_scripts/gsea_pipeline.R")
 
 # >>>>>>>>>>>>>>>>>>>>>>>
 # Resolver conflitos de namespace introduzidos por pacotes do Bioconductor
@@ -38,7 +39,10 @@ select <- dplyr::select
 filter <- dplyr::filter
 rename <- dplyr::rename
 
-setup_dirs(c("results", "plots"))
+# Definindo diretórios de saída dentro da estrutura data/results
+out_tables <- "data/results/tables"
+out_plots  <- "data/results/plots"
+setup_dirs(c(out_tables, out_plots))
 
 # >>>>>>>>>>>>>>>>>>>>>>>
 # 1. Configuração da análise
@@ -47,8 +51,9 @@ setup_dirs(c("results", "plots"))
 # Cada entrada aciona uma execução completa de DE + enriquecimento.
 cohorts <- list(
   LRRK2 = list(
-    counts_file = "data/GSE90469/counts/LRRK2_mRNA_counts_with_symbols.csv",
-    meta_file   = "data/GSE90469/counts/metadata.csv"
+    counts_file = "data/processed/LRRK2/LRRK2_mRNA_counts_with_symbols.csv",
+    meta_file   = "data/processed/LRRK2/LRRK2_metadata.csv",
+    comparisons = c("Isogenic", "Non-Isogenic")
   )
 )
 
@@ -68,57 +73,91 @@ thresholds <- list(
 # >>>>>>>>>>>>>>>>>>>>>>>
 # 2. Executar pipeline para cada coorte
 # <<<<<<<<<<<<<<<<<<<<<<<
-pipeline_status <- lapply(names(cohorts), function(target_name) {
-  cfg <- cohorts[[target_name]]
+
+# Helper para rodar o fluxo completo para um alvo (independente se subset ou combined)
+run_full_pipeline <- function(target_name, counts_file, meta_file, 
+                              subset_col = NULL, subset_val = NULL, 
+                              design_formula = ~ condition, thresholds) {
+  # Passo 1 — Expressão Diferencial (DESeq2)
+  de_results <- run_deseq2_analysis(
+    target_name    = target_name,
+    counts_file    = counts_file,
+    meta_file      = meta_file,
+    design_formula = design_formula,
+    subset_col     = subset_col,
+    subset_val     = subset_val,
+    lfc_threshold  = thresholds$lfc_threshold,
+    padj_threshold = thresholds$padj_threshold,
+    min_count      = thresholds$min_count
+  )
+
+  # Passo 2 — Visualização (Volcano + MA)
+  generate_volcano_plot(
+    res_shrunken   = de_results$res_shrunken,
+    target_name    = target_name,
+    lfc_threshold  = thresholds$lfc_threshold,
+    padj_threshold = thresholds$padj_threshold
+  )
+
+  generate_ma_plot(
+    res_shrunken   = de_results$res_shrunken,
+    target_name    = target_name,
+    padj_threshold = thresholds$padj_threshold
+  )
+
+  # Passo 3 — Enriquecimento (GO ORA + GSEA)
+  run_enrichment_analysis(
+    res_shrunken = de_results$res_shrunken,
+    res_raw      = de_results$res_raw,
+    degs         = de_results$degs,
+    target_name  = target_name,
+    padj_ora     = thresholds$padj_ora,
+    padj_gsea    = thresholds$padj_gsea,
+    min_gs_size  = thresholds$min_gs_size,
+    max_gs_size  = thresholds$max_gs_size
+  )
+}
+
+pipeline_status <- lapply(names(cohorts), function(cohort_id) {
+  cfg <- cohorts[[cohort_id]]
 
   cat("\n", rep("-", 60), "\n", sep = "")
-  log_info("Processando coorte: ", target_name)
+  log_info("Processando coorte: ", cohort_id)
   cat(rep("-", 60), "\n", sep = "")
 
   tryCatch({
-    # Passo 1 — Expressão Diferencial (DESeq2)
-    de_results <- run_deseq2_analysis(
-      target_name    = target_name,
+    # A. Análises Individuais (Subsets)
+    if (!is.null(cfg$comparisons)) {
+      for (comp in cfg$comparisons) {
+        log_info("Rodando análise para comparação: ", comp)
+        run_full_pipeline(
+          target_name = paste0(cohort_id, "_", comp),
+          counts_file = cfg$counts_file,
+          meta_file   = cfg$meta_file,
+          subset_col  = "comparison",
+          subset_val  = comp,
+          thresholds  = thresholds
+        )
+      }
+    }
+
+    # B. Análise Combinada (Pool)
+    log_info("Rodando análise combinada para o coorte: ", cohort_id)
+    run_full_pipeline(
+      target_name    = paste0(cohort_id, "_Combined"),
       counts_file    = cfg$counts_file,
       meta_file      = cfg$meta_file,
-      lfc_threshold  = thresholds$lfc_threshold,
-      padj_threshold = thresholds$padj_threshold,
-      min_count      = thresholds$min_count
+      design_formula = ~ comparison + condition,
+      thresholds     = thresholds
     )
 
-    # Passo 2 — Visualização (Volcano + MA)
-    generate_volcano_plot(
-      res_shrunken   = de_results$res_shrunken,
-      target_name    = target_name,
-      lfc_threshold  = thresholds$lfc_threshold,
-      padj_threshold = thresholds$padj_threshold
-    )
-
-    generate_ma_plot(
-      res_shrunken   = de_results$res_shrunken,
-      target_name    = target_name,
-      padj_threshold = thresholds$padj_threshold
-    )
-
-    # Passo 3 — Enriquecimento (GO ORA + GSEA)
-    run_enrichment_analysis(
-      res_shrunken = de_results$res_shrunken,
-      res_raw      = de_results$res_raw,
-      degs         = de_results$degs,
-      target_name  = target_name,
-      padj_ora     = thresholds$padj_ora,
-      padj_gsea    = thresholds$padj_gsea,
-      min_gs_size  = thresholds$min_gs_size,
-      max_gs_size  = thresholds$max_gs_size
-    )
-
-    log_info("Coorte concluído: ", target_name)
-    list(cohort = target_name, status = "SUCCESS", error = NA)
+    log_info("Coorte concluído: ", cohort_id)
+    list(cohort = cohort_id, status = "SUCCESS", error = NA)
 
   }, error = function(e) {
-    log_error("Coorte FALHOU: ", target_name)
+    log_error("Coorte FALHOU: ", cohort_id)
     log_error("Razão: ", conditionMessage(e))
-    list(cohort = target_name, status = "FAILED", error = conditionMessage(e))
+    list(cohort = cohort_id, status = "FAILED", error = conditionMessage(e))
   })
 })
 

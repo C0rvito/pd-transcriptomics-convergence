@@ -15,7 +15,7 @@ suppressPackageStartupMessages({
   library(ggplot2)
 })
 
-source("src/utils.R")
+source("bin/deseq/src/utils/utils.R")
 
 # >>>>>>>>>>>>>>>>>>>>>>>
 #' Executa a análise de expressão diferencial DESeq2
@@ -35,6 +35,9 @@ run_deseq2_analysis <- function(
     target_name,
     counts_file,
     meta_file,
+    design_formula = ~ condition,
+    subset_col     = NULL,
+    subset_val     = NULL,
     lfc_threshold  = 1,
     padj_threshold = 0.05,
     min_count      = 10,
@@ -51,6 +54,19 @@ run_deseq2_analysis <- function(
   # <<<<<<<<<<<<<<<<<<<<<<<
   log_info("Carregando metadados...")
   metadata <- read_csv(meta_file, show_col_types = FALSE)
+
+  # --- Subsetting dinâmico ---
+  if (!is.null(subset_col) && !is.null(subset_val)) {
+    if (!subset_col %in% colnames(metadata)) {
+      stop("Coluna de subset '", subset_col, "' não encontrada nos metadados.", call. = FALSE)
+    }
+    log_info("Filtrando metadados: ", subset_col, " == ", subset_val)
+    metadata <- metadata[metadata[[subset_col]] == subset_val, ]
+    if (nrow(metadata) == 0) {
+      stop("Nenhuma amostra restou após o subsetting.", call. = FALSE)
+    }
+  }
+  # ---------------------------
 
   required_cols <- c("sample", "condition")
   missing_cols  <- setdiff(required_cols, colnames(metadata))
@@ -121,7 +137,7 @@ run_deseq2_analysis <- function(
   dds <- DESeqDataSetFromMatrix(
     countData = counts_aligned,
     colData   = meta_aligned,
-    design    = ~ condition
+    design    = design_formula
   )
 
   n_before <- nrow(dds)
@@ -206,13 +222,13 @@ run_deseq2_analysis <- function(
   # <<<<<<<<<<<<<<<<<<<<<<<
   log_info("Gravando tabelas de resultados em: ", out_dir)
   write_tsv(res_shrunken,
-            file.path(out_dir, paste0("DE_Mutant_vs_Control_", target_name, ".tsv")))
+            file.path(out_dir, paste0(target_name, "_DE_Mutant_vs_Control.tsv")))
   write_tsv(res_raw,
-            file.path(out_dir, paste0("DE_Raw_Stat_",          target_name, ".tsv")))
+            file.path(out_dir, paste0(target_name, "_DE_Raw_Stat.tsv")))
   write_tsv(norm_counts,
-            file.path(out_dir, paste0("NormCounts_",            target_name, ".tsv")))
+            file.path(out_dir, paste0(target_name, "_NormCounts.tsv")))
   write_tsv(degs,
-            file.path(out_dir, paste0("DEGs_",                  target_name, ".tsv")))
+            file.path(out_dir, paste0(target_name, "_DEGs.tsv")))
 
   log_info("Análise DESeq2 concluída: ", target_name)
 
@@ -226,14 +242,47 @@ run_deseq2_analysis <- function(
 }
 
 # >>>>>>>>>>>>>>>>>>>>>>>
+#' Executa a análise DESeq2 combinada (controlando por background/comparison)
+#'
+#' @param target_name Texto. Rótulo do coorte.
+#' @param counts_file Caminho para o CSV de contagens.
+#' @param meta_file   Caminho para o CSV de metadados.
+#' @param background_source Coluna que define a origem/lote das amostras (padrão "comparison").
+#' @param ... Outros parâmetros passados para run_deseq2_analysis.
+#'
+#' @return Lista de resultados do DESeq2.
+# <<<<<<<<<<<<<<<<<<<<<<<
+run_combined_deseq2_analysis <- function(
+    target_name,
+    counts_file,
+    meta_file,
+    background_source = "comparison",
+    ...
+) {
+  log_info("--- Iniciando Análise Combinada (Pool) ---")
+
+  # Define o design para controlar pela fonte (comparison) e avaliar a condição
+  # Ex: ~ comparison + condition
+  design_formula <- as.formula(paste("~", background_source, "+ condition"))
+
+  run_deseq2_analysis(
+    target_name    = paste0(target_name, "_Combined"),
+    counts_file    = counts_file,
+    meta_file      = meta_file,
+    design_formula = design_formula,
+    ...
+  )
+}
+
+# >>>>>>>>>>>>>>>>>>>>>>>
 # Auxiliares internos para gráficos de CQ (prefixados com . para indicar privado)
 # <<<<<<<<<<<<<<<<<<<<<<<
 
 .save_dispersion_plot <- function(dds, target_name, plots_dir) {
-  out <- file.path(plots_dir, paste0("QC_Dispersion_", target_name, ".png"))
+  out <- file.path(plots_dir, paste0(target_name, "-QC_Dispersion.png"))
   png(out, width = 800, height = 600, res = 150)
   DESeq2::plotDispEsts(dds,
-    main = paste("Estimativas de Dispersão —", target_name))
+    main = paste(target_name, "- Estimativas de Dispersão"))
   dev.off()
   log_info("CQ: Gráfico de dispersão salvo → ", out)
 }
@@ -248,14 +297,14 @@ run_deseq2_analysis <- function(
     geom_point(size = 3) +
     scale_color_manual(values = c("Control" = "steelblue", "Mutant" = "firebrick")) +
     labs(
-      title    = paste("PCA — contagens rlog:", target_name),
+      title    = paste(target_name, "- PCA — contagens rlog"),
       subtitle = "Mutant vs Control iPSCs",
       x = paste0("PC1: ", pct_var[1], "% de variância"),
       y = paste0("PC2: ", pct_var[2], "% de variância")
     ) +
     theme_pipeline()
 
-  out <- file.path(plots_dir, paste0("QC_PCA_", target_name, ".png"))
+  out <- file.path(plots_dir, paste0(target_name, "-QC_PCA.png"))
   ggsave(out, plot = p, width = 7, height = 5, dpi = 300)
   log_info("CQ: Gráfico PCA salvo → ", out)
 }
@@ -273,13 +322,13 @@ run_deseq2_analysis <- function(
     geom_hline(yintercept = 1, linetype = "dashed", color = "grey40") +
     scale_fill_manual(values = c("Control" = "steelblue", "Mutant" = "firebrick")) +
     labs(
-      title = paste("Fatores de Tamanho —", target_name),
+      title = paste(target_name, "- Fatores de Tamanho"),
       x = "Amostra", y = "Fator de Tamanho"
     ) +
     theme_pipeline() +
     theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
-  out <- file.path(plots_dir, paste0("QC_SizeFactors_", target_name, ".png"))
+  out <- file.path(plots_dir, paste0(target_name, "-QC_SizeFactors.png"))
   ggsave(out, plot = p, width = 8, height = 4, dpi = 300)
   log_info("CQ: Gráfico de fatores de tamanho salvo → ", out)
 }

@@ -1,6 +1,6 @@
 # >>>>>>>>>>>>>>>>>>>>>>>
 # Arquivo: src/visualization.R
-# Descrição: Gráficos de resultados de DE com qualidade de publicação
+# Descrição: Gráficos de resultados de DE 
 #   - Gráfico Volcano (LFC encolhido pelo apeglm)
 #   - Gráfico MA
 # <<<<<<<<<<<<<<<<<<<<<<<
@@ -11,7 +11,7 @@ suppressPackageStartupMessages({
   library(dplyr)
 })
 
-source("src/utils.R")
+source("bin/deseq/src/utils/utils.R")
 
 # >>>>>>>>>>>>>>>>>>>>>>>
 #' Gera um Gráfico Volcano a partir dos resultados encolhidos do DESeq2
