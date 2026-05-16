@@ -34,3 +34,13 @@ dependencies:
   - radian
   - quarto
   - python=3.12
+  # Python packages
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - openpyxl
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-code-formatter
