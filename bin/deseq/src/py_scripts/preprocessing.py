@@ -21,6 +21,10 @@ def add_gene_symbols(matrix_path, gtf_path, output_path):
     """Adds gene symbols to a count matrix using a GTF file."""
     mapping = parse_gtf_mapping(gtf_path)
     df = pd.read_csv(matrix_path)
+    
+    # Ensure first column is named 'gene_id'
+    df.rename(columns={df.columns[0]: 'gene_id'}, inplace=True)
+    
     df['gene_symbol'] = df['gene_id'].map(mapping)
     
     cols = df.columns.tolist()

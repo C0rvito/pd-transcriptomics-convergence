@@ -123,7 +123,7 @@ run_deseq2_analysis <- function(
              paste(dropped, collapse = ", "))
   }
 
-  meta_aligned   <- meta_clean[shared_samples, , drop = FALSE]
+  meta_aligned   <- as.data.frame(meta_clean[shared_samples, , drop = FALSE])
   counts_aligned <- counts_mat[, shared_samples, drop = FALSE]
   stopifnot(identical(colnames(counts_aligned), rownames(meta_aligned)))
 
