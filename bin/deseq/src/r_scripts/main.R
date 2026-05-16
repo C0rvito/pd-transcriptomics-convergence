@@ -50,10 +50,9 @@ setup_dirs(c(out_tables, out_plots))
 # Para adicionar mais coortes, anexe entradas a esta lista.
 # Cada entrada aciona uma execução completa de DE + enriquecimento.
 cohorts <- list(
-  LRRK2 = list(
-    counts_file = "data/processed/LRRK2/LRRK2_mRNA_counts_with_symbols.csv",
-    meta_file   = "data/processed/LRRK2/LRRK2_metadata.csv",
-    comparisons = c("Isogenic", "Non-Isogenic")
+  SNCA = list(
+    counts_file = "data/processed/SNCA/SNCA_mRNA_counts_with_symbols.csv",
+    meta_file   = "data/processed/SNCA/SNCA_metadata.csv"
   )
 )
 
@@ -143,11 +142,14 @@ pipeline_status <- lapply(names(cohorts), function(cohort_id) {
 
     # B. Análise Combinada (Pool)
     log_info("Rodando análise combinada para o coorte: ", cohort_id)
+    
+    comb_design <- if (!is.null(cfg$comparisons)) ~ comparison + condition else ~ condition
+
     run_full_pipeline(
       target_name    = paste0(cohort_id, "_Combined"),
       counts_file    = cfg$counts_file,
       meta_file      = cfg$meta_file,
-      design_formula = ~ comparison + condition,
+      design_formula = comb_design,
       thresholds     = thresholds
     )
 
