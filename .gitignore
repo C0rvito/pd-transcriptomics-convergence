@@ -1,0 +1,23 @@
+# Data and Reference files
+data/reference/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+
+# IDEs
+.vscode/
+.idea/
+
+# System
+.DS_Store

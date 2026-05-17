@@ -50,10 +50,24 @@ setup_dirs(c(out_tables, out_plots))
 # Para adicionar mais coortes, anexe entradas a esta lista.
 # Cada entrada aciona uma execução completa de DE + enriquecimento.
 cohorts <- list(
+  GBA = list(
+    counts_file     = "data/processed/GBA/GBA_mRNA_counts_with_symbols.csv",
+    meta_file       = "data/processed/GBA/GBA_metadata.csv",
+    comparisons     = list(
+      "IVS_het" = c("GBA1 +/+", "GBA1 IVS/+"),
+      "IVS_hom" = c("GBA1 +/+", "GBA1 IVS/IVS")
+    ),
+    combined_design = ~ condition
+  ),
   LRRK2 = list(
     counts_file = "data/processed/LRRK2/LRRK2_mRNA_counts_with_symbols.csv",
     meta_file   = "data/processed/LRRK2/LRRK2_metadata.csv",
     comparisons = c("Isogenic", "Non-Isogenic")
+  ),
+  SNCA = list(
+    counts_file = "data/processed/SNCA/SNCA_mRNA_counts_with_symbols.csv",
+    meta_file   = "data/processed/SNCA/SNCA_metadata.csv",
+    comparisons = NULL
   )
 )
 
@@ -128,14 +142,20 @@ pipeline_status <- lapply(names(cohorts), function(cohort_id) {
   tryCatch({
     # A. Análises Individuais (Subsets)
     if (!is.null(cfg$comparisons)) {
-      for (comp in cfg$comparisons) {
-        log_info("Rodando análise para comparação: ", comp)
+      # Suporta tanto vetores (legado) quanto listas nomeadas (para multi-genótipos)
+      comp_names <- if (is.list(cfg$comparisons)) names(cfg$comparisons) else cfg$comparisons
+      
+      for (comp_idx in seq_along(comp_names)) {
+        c_name <- comp_names[comp_idx]
+        c_val  <- if (is.list(cfg$comparisons)) cfg$comparisons[[c_name]] else c_name
+        
+        log_info("Rodando análise para comparação: ", c_name)
         run_full_pipeline(
-          target_name = paste0(cohort_id, "_", comp),
+          target_name = paste0(cohort_id, "_", c_name),
           counts_file = cfg$counts_file,
           meta_file   = cfg$meta_file,
           subset_col  = "comparison",
-          subset_val  = comp,
+          subset_val  = c_val,
           thresholds  = thresholds
         )
       }
@@ -143,11 +163,23 @@ pipeline_status <- lapply(names(cohorts), function(cohort_id) {
 
     # B. Análise Combinada (Pool)
     log_info("Rodando análise combinada para o coorte: ", cohort_id)
+    
+    # Se combined_design for fornecido, usa-o. Caso contrário, se houver comparações
+    # que NÃO são uma lista (como no caso LRRK2), tenta controlar por comparação.
+    # Para listas (GBA), cai no default ~ condition para evitar colinearidade.
+    comb_design <- if (!is.null(cfg$combined_design)) {
+      cfg$combined_design
+    } else if (!is.null(cfg$comparisons) && !is.list(cfg$comparisons)) {
+      ~ comparison + condition
+    } else {
+      ~ condition
+    }
+
     run_full_pipeline(
       target_name    = paste0(cohort_id, "_Combined"),
       counts_file    = cfg$counts_file,
       meta_file      = cfg$meta_file,
-      design_formula = ~ comparison + condition,
+      design_formula = comb_design,
       thresholds     = thresholds
     )
 

@@ -60,8 +60,8 @@ run_deseq2_analysis <- function(
     if (!subset_col %in% colnames(metadata)) {
       stop("Coluna de subset '", subset_col, "' não encontrada nos metadados.", call. = FALSE)
     }
-    log_info("Filtrando metadados: ", subset_col, " == ", subset_val)
-    metadata <- metadata[metadata[[subset_col]] == subset_val, ]
+    log_info("Filtrando metadados: ", subset_col, " %in% c(", paste(subset_val, collapse = ", "), ")")
+    metadata <- metadata[metadata[[subset_col]] %in% subset_val, ]
     if (nrow(metadata) == 0) {
       stop("Nenhuma amostra restou após o subsetting.", call. = FALSE)
     }
@@ -123,7 +123,7 @@ run_deseq2_analysis <- function(
              paste(dropped, collapse = ", "))
   }
 
-  meta_aligned   <- meta_clean[shared_samples, , drop = FALSE]
+  meta_aligned   <- as.data.frame(meta_clean[shared_samples, , drop = FALSE])
   counts_aligned <- counts_mat[, shared_samples, drop = FALSE]
   stopifnot(identical(colnames(counts_aligned), rownames(meta_aligned)))
 
