@@ -60,8 +60,8 @@ run_deseq2_analysis <- function(
     if (!subset_col %in% colnames(metadata)) {
       stop("Coluna de subset '", subset_col, "' não encontrada nos metadados.", call. = FALSE)
     }
-    log_info("Filtrando metadados: ", subset_col, " == ", subset_val)
-    metadata <- metadata[metadata[[subset_col]] == subset_val, ]
+    log_info("Filtrando metadados: ", subset_col, " %in% c(", paste(subset_val, collapse = ", "), ")")
+    metadata <- metadata[metadata[[subset_col]] %in% subset_val, ]
     if (nrow(metadata) == 0) {
       stop("Nenhuma amostra restou após o subsetting.", call. = FALSE)
     }
