@@ -24,26 +24,35 @@ def annotate_de_results(res_path, symbols_map_path, output_path=None):
     return df
 
 def rank_and_segment_results(res_path, output_xlsx, metadata_path=None, padj_threshold=0.05):
-    """Ranks by p-value and segments into Up/Down regulated sheets."""
+    """Ranks by p-value and segments into Up/Down regulated sheets. Appends if file exists."""
     sep = '\t' if res_path.endswith('.tsv') else ','
     df = pd.read_csv(res_path, sep=sep)
     df_ranked = df.sort_values(by='pvalue', ascending=True)
     
-    base_dir = os.path.dirname(output_xlsx)
     label = os.path.basename(res_path).replace(".csv", "").replace(".tsv", "")
+    # Clean label to be used as sheet prefix
+    prefix = label.replace("_DE_Mutant_vs_Control", "").replace("_Combined", "")
 
     sig_mask = (df_ranked['padj'] < padj_threshold)
     up_reg = df_ranked[sig_mask & (df_ranked['log2FoldChange'] > 0)]
     down_reg = df_ranked[sig_mask & (df_ranked['log2FoldChange'] < 0)]
 
-    with pd.ExcelWriter(output_xlsx) as writer:
-        if metadata_path and os.path.exists(metadata_path):
-            m_sep = '\t' if metadata_path.endswith('.tsv') else ','
-            pd.read_csv(metadata_path, sep=m_sep).to_excel(writer, sheet_name='Metadata', index=False)
-        
-        df_ranked.to_excel(writer, sheet_name='Full_Ranked', index=False)
-        up_reg.to_excel(writer, sheet_name='UpRegulated', index=False)
-        down_reg.to_excel(writer, sheet_name='DownRegulated', index=False)
+    mode = 'a' if os.path.exists(output_xlsx) else 'w'
+    if mode == 'a':
+        # Use openpyxl engine for appending
+        with pd.ExcelWriter(output_xlsx, engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
+            df_ranked.to_excel(writer, sheet_name=f'{prefix}_Ranked', index=False)
+            up_reg.to_excel(writer, sheet_name=f'{prefix}_Up', index=False)
+            down_reg.to_excel(writer, sheet_name=f'{prefix}_Down', index=False)
+    else:
+        with pd.ExcelWriter(output_xlsx, engine='openpyxl') as writer:
+            if metadata_path and os.path.exists(metadata_path):
+                m_sep = '\t' if metadata_path.endswith('.tsv') else ','
+                pd.read_csv(metadata_path, sep=m_sep).to_excel(writer, sheet_name='Metadata', index=False)
+            
+            df_ranked.to_excel(writer, sheet_name=f'{prefix}_Ranked', index=False)
+            up_reg.to_excel(writer, sheet_name=f'{prefix}_Up', index=False)
+            down_reg.to_excel(writer, sheet_name=f'{prefix}_Down', index=False)
     
     return up_reg, down_reg
 
