@@ -1,7 +1,0 @@
-{
-    "r.rterm.linux": "${workspaceFolder}/scripts/radian_wrapper.sh",
-    "r.rpath.linux": "/home/m40ista/miniconda3/envs/deseq2_env/bin/R",
-    "quarto.path": "${workspaceFolder}/scripts/quarto_wrapper.sh",
-    "r.bracketedPaste": true,
-    "quarto.render.renderOnSave": true
-}
