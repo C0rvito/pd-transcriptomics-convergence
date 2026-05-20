@@ -1,0 +1,36 @@
+name: deseq2_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base=4.3
+  # Core tidyverse / data wrangling
+  - r-dplyr
+  - r-readr
+  - r-tibble
+  - r-tidyr
+  - r-stringr
+  # Visualization
+  - r-ggplot2
+  - r-ggrepel
+  - r-ggridges          # ridge plots (GSEA)
+  - r-dt
+  # Dev tools
+  - r-languageserver
+  - r-httpgd
+  # Bioconductor — DE
+  - bioconductor-deseq2
+  - bioconductor-apeglm
+  # Bioconductor — Enrichment
+  - bioconductor-clusterprofiler
+  - bioconductor-enrichplot
+  - bioconductor-org.hs.eg.db
+  - bioconductor-pathview
+  - bioconductor-kegggraph
+  # Utilities
+  - r-igraph
+  - r-xml
+  - radian
+  - quarto
+  - python=3.12
