@@ -7,7 +7,7 @@
 process MERGE_COUNTS {
     label 'process_low'
 
-    publishDir { "${params.outdir}/de/counts/${gene}" }, mode: 'copy'
+    publishDir { "${params.outdir}/star/${gene}" }, mode: 'copy'
 
     input:
     tuple val(gene), path(gene_dir)

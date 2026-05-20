@@ -1,4 +1,4 @@
-﻿Run,Donor,genotype,source_name,treatment_condition/type,treatment
+﻿Run,Donor,genotype,source_name,comparison,condition
 SRR11652312,Triplication SNCA,Triplication SNCA,Triplication SNCA_NSC,NSC,Control
 SRR11652313,Triplication SNCA,Triplication SNCA,Triplication SNCA_WTPFF,WTPFF,Aggregation
 SRR11652314,Triplication SNCA,Triplication SNCA,Triplication SNCA_PDamp,PDamp,Aggregation
