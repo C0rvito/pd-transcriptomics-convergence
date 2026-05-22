@@ -1,0 +1,20 @@
+[project]
+name = "cytoscape"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "faker>=40.19.1",
+    "lxml>=6.1.1",
+    "matplotlib>=3.10.9",
+    "networkx>=3.6.1",
+    "numpy>=2.4.6",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.3",
+    "polars>=1.40.1",
+    "py4cytoscape>=1.13.0",
+    "rich>=15.0.0",
+    "seaborn>=0.13.2",
+    "stringdb>=0.1.5",
+]
