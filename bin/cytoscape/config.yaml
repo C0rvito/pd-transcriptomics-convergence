@@ -1,0 +1,16 @@
+network_limits: [5, 10, 15]
+string_cutoff: 0.5
+species: "Homo sapiens"
+
+analyses:
+  - id: "LRRK2_Isogenic"
+    source_excel: "results/LRRK2_Ranked.xlsx"
+    up_sheet: "LRRK2_Isogenic_Up"
+    down_sheet: "LRRK2_Isogenic_Down"
+    directions: ["UP", "DOWN", "UP/DOWN"]
+
+  - id: "SNCA"
+    source_excel: "results/SNCA_Ranked.xlsx"
+    up_sheet: "SNCA_Up"
+    down_sheet: "SNCA_Down"
+    directions: ["UP", "DOWN", "UP/DOWN"]

@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<graph id="169378" label="Rede_LRRK2_Isogenic_DOWN_lim5" cy:view="1" cy:networkId="167338" cy:visualStyle="Estilo_LRRK2_Isogenic_DOWN" cy:rendererId="org.cytoscape.ding" cy:documentVersion="3.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cy="http://www.cytoscape.org" xmlns="http://www.cs.rpi.edu/XGMML">
+  <graphics>
+    <att name="NETWORK_NODE_LABEL_SELECTION" value="false" type="string" cy:type="String"/>
+    <att name="NETWORK_CENTER_X_LOCATION" value="233.27279413998212" type="string" cy:type="String"/>
+    <att name="NETWORK_ANNOTATION_SELECTION" value="false" type="string" cy:type="String"/>
+    <att name="NETWORK_SCALE_FACTOR" value="0.10857040827694045" type="string" cy:type="String"/>
+    <att name="NETWORK_HEIGHT" value="299.0" type="string" cy:type="String"/>
+    <att name="NETWORK_CENTER_Y_LOCATION" value="-403.60876752954056" type="string" cy:type="String"/>
+    <att name="NETWORK_FORCE_HIGH_DETAIL" value="false" type="string" cy:type="String"/>
+    <att name="NETWORK_WIDTH" value="416.0" type="string" cy:type="String"/>
+    <att name="NETWORK_DEPTH" value="0.0" type="string" cy:type="String"/>
+    <att name="NETWORK_CENTER_Z_LOCATION" value="0.0" type="string" cy:type="String"/>
+    <att name="NETWORK_EDGE_SELECTION" value="true" type="string" cy:type="String"/>
+    <att name="NETWORK_TITLE" value="Rede_LRRK2_Isogenic_DOWN_lim5" type="string" cy:type="String"/>
+    <att name="NETWORK_NODE_SELECTION" value="true" type="string" cy:type="String"/>
+  </graphics>
+  <node id="169467" label="9606.ENSP00000355402" cy:nodeId="168384">
+    <graphics y="-116.5828204741415" z="0.0" x="-981.1964973274755"/>
+  </node>
+  <node id="169435" label="9606.ENSP00000312385" cy:nodeId="168576">
+    <graphics y="644.1186010310098" z="0.0" x="1183.4020717687677"/>
+  </node>
+  <node id="169537" label="9606.ENSP00000224356" cy:nodeId="167616">
+    <graphics y="308.4562766775134" z="0.0" x="-203.3436537203379"/>
+  </node>
+  <node id="169403" label="9606.ENSP00000354991" cy:nodeId="168672">
+    <graphics y="744.1186010310098" z="0.0" x="583.4020717687677"/>
+  </node>
+  <node id="169508" label="9606.ENSP00000405327" cy:nodeId="167808">
+    <graphics y="-671.6676719107761" z="0.0" x="-60.22464219083213"/>
+  </node>
+  <node id="169565" label="9606.ENSP00000323588" cy:nodeId="167457">
+    <graphics y="-138.87746510669012" z="0.0" x="326.87010155710914"/>
+  </node>
+  <node id="169451" label="9606.ENSP00000428994" cy:nodeId="168513">
+    <graphics y="180.9835676721691" z="0.0" x="480.33424349818233"/>
+  </node>
+  <node id="169548" label="9606.ENSP00000258302" cy:nodeId="167553">
+    <graphics y="128.95040651241243" z="0.0" x="-977.2479167604374"/>
+  </node>
+  <node id="169424" label="9606.ENSP00000345826" cy:nodeId="168609">
+    <graphics y="744.1186010310098" z="0.0" x="-1516.5979282312323"/>
+  </node>
+  <node id="169531" label="9606.ENSP00000339824" cy:nodeId="167649">
+    <graphics y="277.49211752138444" z="0.0" x="-343.4589977739415"/>
+  </node>
+  <node id="169392" label="9606.ENSP00000295927" cy:nodeId="168705">
+    <graphics y="-1539.924994444384" z="0.0" x="2081.884359964974"/>
+  </node>
+  <node id="169504" label="9606.ENSP00000302251" cy:nodeId="167841">
+    <graphics y="-417.5672767900983" z="0.0" x="272.30989307665413"/>
+  </node>
+  <node id="169470" label="9606.ENSP00000346577" cy:nodeId="168354">
+    <graphics y="-690.7210597949846" z="0.0" x="752.6759428866485"/>
+  </node>
+  <node id="169559" label="9606.ENSP00000355718" cy:nodeId="167490">
+    <graphics y="-234.72803087281477" z="0.0" x="326.8701015571087"/>
+  </node>
+  <node id="169445" label="9606.ENSP00000402608" cy:nodeId="168546">
+    <graphics y="644.1186010310098" z="0.0" x="83.40207176876766"/>
+  </node>
+  <node id="169413" label="9606.ENSP00000368523" cy:nodeId="168642">
+    <graphics y="744.1186010310098" z="0.0" x="-516.5979282312323"/>
+  </node>
+  <node id="169381" label="9606.ENSP00000332791" cy:nodeId="168738">
+    <graphics y="644.1186010310098" z="0.0" x="-716.5979282312323"/>
+  </node>
+  <node id="169512" label="9606.ENSP00000358513" cy:nodeId="167778">
+    <graphics y="86.47034524403921" z="0.0" x="-884.7090363120808"/>
+  </node>
+  <node id="169499" label="9606.ENSP00000366144" cy:nodeId="167874">
+    <graphics y="-497.743412764848" z="0.0" x="219.78258419979556"/>
+  </node>
+  <node id="169488" label="9606.ENSP00000296591" cy:nodeId="168003">
+    <graphics y="-162.81209090259972" z="0.0" x="-663.3587304537009"/>
+  </node>
+  <node id="169567" label="9606.ENSP00000172229" cy:nodeId="167427">
+    <graphics y="64.93497206300913" z="0.0" x="-595.3977892789802"/>
+  </node>
+  <node id="169457" label="9606.ENSP00000381436" cy:nodeId="168483">
+    <graphics y="-1539.924994444384" z="0.0" x="972.5979982706385"/>
+  </node>
+  <node id="169553" label="9606.ENSP00000335306" cy:nodeId="167523">
+    <graphics y="192.72848203432022" z="0.0" x="152.8298746466162"/>
+  </node>
+  <node id="169434" label="9606.ENSP00000311899" cy:nodeId="168579">
+    <graphics y="644.1186010310098" z="0.0" x="1383.4020717687677"/>
+  </node>
+  <node id="169536" label="9606.ENSP00000356357" cy:nodeId="167619">
+    <graphics y="-328.79291268925203" z="0.0" x="308.4546469999673"/>
+  </node>
+  <node id="169402" label="9606.ENSP00000259818" cy:nodeId="168675">
+    <graphics y="744.1186010310098" z="0.0" x="783.4020717687677"/>
+  </node>
+  <node id="169521" label="9606.ENSP00000266718" cy:nodeId="167715">
+    <graphics y="-115.0547710295873" z="0.0" x="-658.7278656921076"/>
+  </node>
+  <node id="169495" label="9606.ENSP00000481486" cy:nodeId="167907">
+    <graphics y="285.45713068201826" z="0.0" x="-13.928645126748052"/>
+  </node>
+  <node id="169483" label="9606.ENSP00000305244" cy:nodeId="168132">
+    <graphics y="-1539.924994444384" z="0.0" x="1279.5627695413905"/>
+  </node>
+  <node id="169423" label="9606.ENSP00000490806" cy:nodeId="168612">
+    <graphics y="744.1186010310098" z="0.0" x="-1416.5979282312323"/>
+  </node>
+  <node id="169391" label="9606.ENSP00000362171" cy:nodeId="168708">
+    <graphics y="644.1186010310098" z="0.0" x="-1616.5979282312323"/>
+  </node>
+  <node id="169517" label="9606.ENSP00000496870" cy:nodeId="167748">
+    <graphics y="-707.7908790991794" z="0.0" x="-699.6961752053796"/>
+  </node>
+  <node id="169444" label="9606.ENSP00000344087" cy:nodeId="168549">
+    <graphics y="644.1186010310098" z="0.0" x="283.40207176876766"/>
+  </node>
+  <node id="169542" label="9606.ENSP00000222573" cy:nodeId="167589">
+    <graphics y="-305.63815329349063" z="0.0" x="-649.509373305481"/>
+  </node>
+  <node id="169412" label="9606.ENSP00000498864" cy:nodeId="168645">
+    <graphics y="744.1186010310098" z="0.0" x="-316.59792823123234"/>
+  </node>
+  <node id="169525" label="9606.ENSP00000330523" cy:nodeId="167685">
+    <graphics y="176.81508724652895" z="0.0" x="-505.54274702742964"/>
+  </node>
+  <node id="169380" label="9606.ENSP00000222543" cy:nodeId="168741">
+    <graphics y="644.1186010310098" z="0.0" x="-516.5979282312323"/>
+  </node>
+  <node id="169477" label="9606.ENSP00000349723" cy:nodeId="168198">
+    <graphics y="-682.0617726570167" z="0.0" x="-203.34365372033744"/>
+  </node>
+  <node id="169566" label="9606.ENSP00000442521" cy:nodeId="167430">
+    <graphics y="356.6046459038073" z="0.0" x="-676.789234467309"/>
+  </node>
+  <node id="169456" label="9606.ENSP00000464162" cy:nodeId="168486">
+    <graphics y="-1432.1856450791497" z="0.0" x="970.2764078470545"/>
+  </node>
+  <node id="169433" label="9606.ENSP00000355110" cy:nodeId="168582">
+    <graphics y="644.1186010310098" z="0.0" x="1283.4020717687677"/>
+  </node>
+  <node id="169401" label="9606.ENSP00000426354" cy:nodeId="168678">
+    <graphics y="744.1186010310098" z="0.0" x="683.4020717687677"/>
+  </node>
+  <node id="169507" label="9606.ENSP00000313199" cy:nodeId="167814">
+    <graphics y="-660.1014050845761" z="0.0" x="407.7618929477362"/>
+  </node>
+  <node id="169486" label="9606.ENSP00000377265" cy:nodeId="168039">
+    <graphics y="-856.8884233495983" z="0.0" x="157.8623637857463"/>
+  </node>
+  <node id="169482" label="9606.ENSP00000307006" cy:nodeId="168135">
+    <graphics y="-1432.1856450791497" z="0.0" x="1277.2411791178065"/>
+  </node>
+  <node id="169564" label="9606.ENSP00000357206" cy:nodeId="167463">
+    <graphics y="0.4487571860013304" z="0.0" x="292.52927202208866"/>
+  </node>
+  <node id="169547" label="9606.ENSP00000339787" cy:nodeId="167559">
+    <graphics y="18.088726560730265" z="0.0" x="-1069.1483406892244"/>
+  </node>
+  <node id="169422" label="9606.ENSP00000267460" cy:nodeId="168615">
+    <graphics y="744.1186010310098" z="0.0" x="-1216.5979282312323"/>
+  </node>
+  <node id="169530" label="9606.ENSP00000239461" cy:nodeId="167655">
+    <graphics y="-396.0551242881154" z="0.0" x="-617.6958178008913"/>
+  </node>
+  <node id="169390" label="9606.ENSP00000406318" cy:nodeId="168711">
+    <graphics y="644.1186010310098" z="0.0" x="-1416.5979282312323"/>
+  </node>
+  <node id="169503" label="9606.ENSP00000340292" cy:nodeId="167847">
+    <graphics y="-679.7456640051049" z="0.0" x="-107.52107496982057"/>
+  </node>
+  <node id="169469" label="9606.ENSP00000478212" cy:nodeId="168360">
+    <graphics y="-667.8027479897517" z="0.0" x="767.9548174234706"/>
+  </node>
+  <node id="169558" label="9606.ENSP00000217086" cy:nodeId="167496">
+    <graphics y="160.0524461561863" z="0.0" x="187.96508759864355"/>
+  </node>
+  <node id="169443" label="9606.ENSP00000261402" cy:nodeId="168552">
+    <graphics y="644.1186010310098" z="0.0" x="383.40207176876766"/>
+  </node>
+  <node id="169541" label="9606.ENSP00000295550" cy:nodeId="167592">
+    <graphics y="-351.6160474761955" z="0.0" x="-635.7893238734486"/>
+  </node>
+  <node id="169411" label="9606.ENSP00000368646" cy:nodeId="168648">
+    <graphics y="744.1186010310098" z="0.0" x="-216.59792823123234"/>
+  </node>
+  <node id="169379" label="9606.ENSP00000276480" cy:nodeId="168744">
+    <graphics y="644.1186010310098" z="0.0" x="-416.59792823123234"/>
+  </node>
+  <node id="169511" label="9606.ENSP00000264218" cy:nodeId="167784">
+    <graphics y="179.00922569239583" z="0.0" x="-842.2289750437075"/>
+  </node>
+  <node id="169552" label="9606.ENSP00000380903" cy:nodeId="167529">
+    <graphics y="124.13791678534426" z="0.0" x="219.78258419979602"/>
+  </node>
+  <node id="169432" label="9606.ENSP00000361557" cy:nodeId="168585">
+    <graphics y="644.1186010310098" z="0.0" x="1483.4020717687677"/>
+  </node>
+  <node id="169535" label="9606.ENSP00000299529" cy:nodeId="167625">
+    <graphics y="306.1401680256017" z="0.0" x="-107.5210749698208"/>
+  </node>
+  <node id="169400" label="9606.ENSP00000322898" cy:nodeId="168681">
+    <graphics y="744.1186010310098" z="0.0" x="883.4020717687677"/>
+  </node>
+  <node id="169421" label="9606.ENSP00000482195" cy:nodeId="168618">
+    <graphics y="744.1186010310098" z="0.0" x="-1316.5979282312323"/>
+  </node>
+  <node id="169389" label="9606.ENSP00000304956" cy:nodeId="168714">
+    <graphics y="644.1186010310098" z="0.0" x="-1516.5979282312323"/>
+  </node>
+  <node id="169516" label="9606.ENSP00000243298" cy:nodeId="167754">
+    <graphics y="-12.389227275975827" z="0.0" x="-965.3826351677826"/>
+  </node>
+  <node id="169460" label="9606.ENSP00000496422" cy:nodeId="168459">
+    <graphics y="399.1960865073456" z="0.0" x="-945.4088575321896"/>
+  </node>
+  <node id="169557" label="9606.ENSP00000288135" cy:nodeId="167499">
+    <graphics y="-642.0482181685895" z="0.0" x="30.934662971619446"/>
+  </node>
+  <node id="169442" label="9606.ENSP00000343658" cy:nodeId="168555">
+    <graphics y="644.1186010310098" z="0.0" x="583.4020717687677"/>
+  </node>
+  <node id="169410" label="9606.ENSP00000269051" cy:nodeId="168651">
+    <graphics y="744.1186010310098" z="0.0" x="-16.597928231232345"/>
+  </node>
+  <node id="169498" label="9606.ENSP00000338157" cy:nodeId="167883">
+    <graphics y="302.6727683526549" z="0.0" x="-250.97513009205795"/>
+  </node>
+  <node id="169455" label="9606.ENSP00000394417" cy:nodeId="168492">
+    <graphics y="-927.3411177473546" z="0.0" x="-247.35765495750934"/>
+  </node>
+  <node id="169431" label="9606.ENSP00000376132" cy:nodeId="168588">
+    <graphics y="644.1186010310098" z="0.0" x="1583.4020717687677"/>
+  </node>
+  <node id="169399" label="9606.ENSP00000367177" cy:nodeId="168684">
+    <graphics y="744.1186010310098" z="0.0" x="983.4020717687677"/>
+  </node>
+  <node id="169506" label="9606.ENSP00000254958" cy:nodeId="167820">
+    <graphics y="-186.80274798975165" z="0.0" x="329.1882409989448"/>
+  </node>
+  <node id="169485" label="9606.ENSP00000288368" cy:nodeId="168045">
+    <graphics y="3.39591124415756" z="0.0" x="-887.5270704112069"/>
+  </node>
+  <node id="169473" label="9606.ENSP00000361458" cy:nodeId="168333">
+    <graphics y="544.1186010310098" z="0.0" x="-310.7218057458483"/>
+  </node>
+  <node id="169563" label="9606.ENSP00000343706" cy:nodeId="167469">
+    <graphics y="334.18538311967586" z="0.0" x="-699.6961752053799"/>
+  </node>
+  <node id="169546" label="9606.ENSP00000219197" cy:nodeId="167565">
+    <graphics y="141.0290373949365" z="0.0" x="-1048.2275383148226"/>
+  </node>
+  <node id="169420" label="9606.ENSP00000368358" cy:nodeId="168621">
+    <graphics y="744.1186010310098" z="0.0" x="-1116.5979282312323"/>
+  </node>
+  <node id="169529" label="9606.ENSP00000378957" cy:nodeId="167661">
+    <graphics y="-67.96734268601426" z="0.0" x="-649.5093733054814"/>
+  </node>
+  <node id="169388" label="9606.ENSP00000355260" cy:nodeId="168717">
+    <graphics y="644.1186010310098" z="0.0" x="-1316.5979282312323"/>
+  </node>
+  <node id="169515" label="9606.ENSP00000369318" cy:nodeId="167757">
+    <graphics y="-27.76273318764106" z="0.0" x="-895.0430636878256"/>
+  </node>
+  <node id="169502" label="9606.ENSP00000358677" cy:nodeId="167853">
+    <graphics y="-595.4664330563328" z="0.0" x="114.70499336037938"/>
+  </node>
+  <node id="169441" label="9606.ENSP00000479884" cy:nodeId="168558">
+    <graphics y="644.1186010310098" z="0.0" x="483.40207176876766"/>
+  </node>
+  <node id="169540" label="9606.ENSP00000297268" cy:nodeId="167598">
+    <graphics y="-651.097613500888" z="0.0" x="-343.4589977739406"/>
+  </node>
+  <node id="169409" label="9606.ENSP00000347821" cy:nodeId="168654">
+    <graphics y="744.1186010310098" z="0.0" x="-116.59792823123234"/>
+  </node>
+  <node id="169524" label="9606.ENSP00000351807" cy:nodeId="167694">
+    <graphics y="-21.98944850330963" z="0.0" x="-635.7893238734491"/>
+  </node>
+  <node id="169510" label="9606.ENSP00000252506" cy:nodeId="167790">
+    <graphics y="-407.80784752313775" z="0.0" x="543.9271587228668"/>
+  </node>
+  <node id="169430" label="9606.ENSP00000473623" cy:nodeId="168591">
+    <graphics y="644.1186010310098" z="0.0" x="1783.4020717687677"/>
+  </node>
+  <node id="169534" label="9606.ENSP00000498424" cy:nodeId="167631">
+    <graphics y="309.6156849293161" z="0.0" x="-155.37634941418492"/>
+  </node>
+  <node id="169398" label="9606.ENSP00000358309" cy:nodeId="168687">
+    <graphics y="-1539.924994444384" z="0.0" x="1581.8843599649745"/>
+  </node>
+  <node id="169520" label="9606.ENSP00000242208" cy:nodeId="167727">
+    <graphics y="-550.4205832260335" z="0.0" x="-505.5427470274285"/>
+  </node>
+  <node id="169493" label="9606.ENSP00000264870" cy:nodeId="167952">
+    <graphics y="-893.1852558214765" z="0.0" x="-403.6335691959032"/>
+  </node>
+  <node id="169481" label="9606.ENSP00000318650" cy:nodeId="168144">
+    <graphics y="378.0176432892538" z="0.0" x="-652.9389761724331"/>
+  </node>
+  <node id="169419" label="9606.ENSP00000361202" cy:nodeId="168624">
+    <graphics y="744.1186010310098" z="0.0" x="-1016.5979282312322"/>
+  </node>
+  <node id="169387" label="9606.ENSP00000368439" cy:nodeId="168720">
+    <graphics y="644.1186010310098" z="0.0" x="-1216.5979282312323"/>
+  </node>
+  <node id="169556" label="9606.ENSP00000328547" cy:nodeId="167505">
+    <graphics y="221.86093707682926" z="0.0" x="114.7049933603796"/>
+  </node>
+  <node id="169440" label="9606.ENSP00000263314" cy:nodeId="168561">
+    <graphics y="644.1186010310098" z="0.0" x="683.4020717687677"/>
+  </node>
+  <node id="169408" label="9606.ENSP00000259254" cy:nodeId="168657">
+    <graphics y="744.1186010310098" z="0.0" x="83.40207176876766"/>
+  </node>
+  <node id="169476" label="9606.ENSP00000359864" cy:nodeId="168210">
+    <graphics y="-608.6174531124368" z="0.0" x="-429.3820268817294"/>
+  </node>
+  <node id="169474" label="9606.ENSP00000329794" cy:nodeId="168306">
+    <graphics y="307.3326893878407" z="0.0" x="-933.176344176094"/>
+  </node>
+  <node id="169454" label="9606.ENSP00000479134" cy:nodeId="168498">
+    <graphics y="105.06990855230265" z="0.0" x="-569.103428992147"/>
+  </node>
+  <node id="169551" label="9606.ENSP00000259915" cy:nodeId="167538">
+    <graphics y="-374.05425316550554" z="0.0" x="292.5292720220882"/>
+  </node>
+  <node id="169429" label="9606.ENSP00000256953" cy:nodeId="168594">
+    <graphics y="644.1186010310098" z="0.0" x="1683.4020717687677"/>
+  </node>
+  <node id="169397" label="9606.ENSP00000352561" cy:nodeId="168690">
+    <graphics y="-1539.924994444384" z="0.0" x="1481.8843599649745"/>
+  </node>
+  <node id="169505" label="9606.ENSP00000302216" cy:nodeId="167826">
+    <graphics y="-282.2058483023616" z="0.0" x="319.9373270749811"/>
+  </node>
+  <node id="169562" label="9606.ENSP00000400175" cy:nodeId="167475">
+    <graphics y="22.4496283086105" z="0.0" x="-617.695817800892"/>
+  </node>
+  <node id="169450" label="9606.ENSP00000385746" cy:nodeId="168531">
+    <graphics y="644.1186010310098" z="0.0" x="-216.59792823123234"/>
+  </node>
+  <node id="169545" label="9606.ENSP00000221166" cy:nodeId="167571">
+    <graphics y="-566.3339780138239" z="0.0" x="152.82987464661574"/>
+  </node>
+  <node id="169418" label="9606.ENSP00000461945" cy:nodeId="168627">
+    <graphics y="744.1186010310098" z="0.0" x="-816.5979282312322"/>
+  </node>
+  <node id="169528" label="9606.ENSP00000364140" cy:nodeId="167667">
+    <graphics y="-631.9355759467317" z="0.0" x="-387.44789212997694"/>
+  </node>
+  <node id="169386" label="9606.ENSP00000368710" cy:nodeId="168723">
+    <graphics y="644.1186010310098" z="0.0" x="-1016.5979282312323"/>
+  </node>
+  <node id="169514" label="9606.ENSP00000248564" cy:nodeId="167763">
+    <graphics y="153.97981610240413" z="0.0" x="-909.7384459020725"/>
+  </node>
+  <node id="169501" label="9606.ENSP00000487174" cy:nodeId="167859">
+    <graphics y="-665.924654993192" z="0.0" x="-297.82605626806253"/>
+  </node>
+  <node id="169479" label="9606.ENSP00000322568" cy:nodeId="168180">
+    <graphics y="268.4427221890862" z="0.0" x="30.934662971619673"/>
+  </node>
+  <node id="169459" label="9606.ENSP00000362588" cy:nodeId="168468">
+    <graphics y="-1539.924994444384" z="0.0" x="870.2764078470545"/>
+  </node>
+  <node id="169439" label="9606.ENSP00000468991" cy:nodeId="168564">
+    <graphics y="644.1186010310098" z="0.0" x="783.4020717687677"/>
+  </node>
+  <node id="169539" label="9606.ENSP00000355751" cy:nodeId="167604">
+    <graphics y="-581.360960028182" z="0.0" x="-468.8698743115574"/>
+  </node>
+  <node id="169407" label="9606.ENSP00000301149" cy:nodeId="168660">
+    <graphics y="744.1186010310098" z="0.0" x="183.40207176876766"/>
+  </node>
+  <node id="169523" label="9606.ENSP00000360493" cy:nodeId="167700">
+    <graphics y="292.3191590136885" z="0.0" x="-297.826056268063"/>
+  </node>
+  <node id="169484" label="9606.ENSP00000366413" cy:nodeId="168117">
+    <graphics y="85.32021820588716" z="0.0" x="247.9852930570646"/>
+  </node>
+  <node id="169466" label="9606.ENSP00000357637" cy:nodeId="168405">
+    <graphics y="-1539.924994444384" z="0.0" x="1381.8843599649745"/>
+  </node>
+  <node id="169428" label="9606.ENSP00000362524" cy:nodeId="168597">
+    <graphics y="644.1186010310098" z="0.0" x="1883.4020717687677"/>
+  </node>
+  <node id="169533" label="9606.ENSP00000498748" cy:nodeId="167637">
+    <graphics y="142.47970868825882" z="0.0" x="-539.0582402977618"/>
+  </node>
+  <node id="169396" label="9606.ENSP00000497997" cy:nodeId="168693">
+    <graphics y="-1539.924994444384" z="0.0" x="1681.8843599649745"/>
+  </node>
+  <node id="169492" label="9606.ENSP00000265362" cy:nodeId="167958">
+    <graphics y="34.20235154363445" z="0.0" x="-878.6775216184045"/>
+  </node>
+  <node id="169463" label="9606.ENSP00000361512" cy:nodeId="168438">
+    <graphics y="-46.88277673406583" z="0.0" x="637.3970683498264"/>
+  </node>
+  <node id="169449" label="9606.ENSP00000378132" cy:nodeId="168534">
+    <graphics y="644.1186010310098" z="0.0" x="-316.59792823123234"/>
+  </node>
+  <node id="169544" label="9606.ENSP00000254108" cy:nodeId="167574">
+    <graphics y="-533.6579421356901" z="0.0" x="187.96508759864332"/>
+  </node>
+  <node id="169417" label="9606.ENSP00000369453" cy:nodeId="168630">
+    <graphics y="744.1186010310098" z="0.0" x="-916.5979282312322"/>
+  </node>
+  <node id="169385" label="9606.ENSP00000401010" cy:nodeId="168726">
+    <graphics y="644.1186010310098" z="0.0" x="-1116.5979282312323"/>
+  </node>
+  <node id="169478" label="9606.ENSP00000329170" cy:nodeId="168183">
+    <graphics y="-91.3996476771431" z="0.0" x="319.93732707498157"/>
+  </node>
+  <node id="169458" label="9606.ENSP00000369251" cy:nodeId="168471">
+    <graphics y="-1432.1856450791497" z="0.0" x="867.9548174234706"/>
+  </node>
+  <node id="169555" label="9606.ENSP00000430432" cy:nodeId="167511">
+    <graphics y="-676.2782643321582" z="0.0" x="-250.97513009205727"/>
+  </node>
+  <node id="169438" label="9606.ENSP00000406482" cy:nodeId="168567">
+    <graphics y="644.1186010310098" z="0.0" x="983.4020717687677"/>
+  </node>
+  <node id="169406" label="9606.ENSP00000260197" cy:nodeId="168663">
+    <graphics y="744.1186010310098" z="0.0" x="383.40207176876766"/>
+  </node>
+  <node id="169509" label="9606.ENSP00000316042" cy:nodeId="167799">
+    <graphics y="-684.4068662300247" z="0.0" x="386.86701711014075"/>
+  </node>
+  <node id="169497" label="9606.ENSP00000330218" cy:nodeId="167895">
+    <graphics y="-44.812583290252405" z="0.0" x="308.45464699996774"/>
+  </node>
+  <node id="169465" label="9606.ENSP00000430241" cy:nodeId="168408">
+    <graphics y="-1432.1856450791497" z="0.0" x="1379.5627695413905"/>
+  </node>
+  <node id="169453" label="9606.ENSP00000417581" cy:nodeId="168504">
+    <graphics y="-1539.924994444384" z="0.0" x="1177.2411791178065"/>
+  </node>
+  <node id="169550" label="9606.ENSP00000217958" cy:nodeId="167544">
+    <graphics y="-438.2050372546387" z="0.0" x="533.7604417410398"/>
+  </node>
+  <node id="169427" label="9606.ENSP00000493357" cy:nodeId="168600">
+    <graphics y="644.1186010310098" z="0.0" x="1983.4020717687677"/>
+  </node>
+  <node id="169395" label="9606.ENSP00000368824" cy:nodeId="168696">
+    <graphics y="-1539.924994444384" z="0.0" x="1781.8843599649745"/>
+  </node>
+  <node id="169519" label="9606.ENSP00000243077" cy:nodeId="167736">
+    <graphics y="-516.0852046677634" z="0.0" x="-539.0582402977607"/>
+  </node>
+  <node id="169494" label="9606.ENSP00000274341" cy:nodeId="167928">
+    <graphics y="-210.79340507690517" z="0.0" x="-663.3587304537009"/>
+  </node>
+  <node id="169472" label="9606.ENSP00000413720" cy:nodeId="168345">
+    <graphics y="-683.2211809088194" z="0.0" x="-155.3763494141847"/>
+  </node>
+  <node id="169561" label="9606.ENSP00000361728" cy:nodeId="167481">
+    <graphics y="344.04325502526603" z="0.0" x="-872.182158606597"/>
+  </node>
+  <node id="169448" label="9606.ENSP00000417303" cy:nodeId="168537">
+    <graphics y="644.1186010310098" z="0.0" x="-116.59792823123234"/>
+  </node>
+  <node id="169416" label="9606.ENSP00000280258" cy:nodeId="168633">
+    <graphics y="744.1186010310098" z="0.0" x="-716.5979282312322"/>
+  </node>
+  <node id="169527" label="9606.ENSP00000261037" cy:nodeId="167673">
+    <graphics y="-258.5507249499178" z="0.0" x="-658.7278656921073"/>
+  </node>
+  <node id="169384" label="9606.ENSP00000339067" cy:nodeId="168729">
+    <graphics y="644.1186010310098" z="0.0" x="-916.5979282312323"/>
+  </node>
+  <node id="169490" label="9606.ENSP00000269593" cy:nodeId="167994">
+    <graphics y="-1539.924994444384" z="0.0" x="1074.9195886942225"/>
+  </node>
+  <node id="169468" label="9606.ENSP00000354213" cy:nodeId="168378">
+    <graphics y="-842.2755556897127" z="0.0" x="-521.140176208294"/>
+  </node>
+  <node id="169437" label="9606.ENSP00000358107" cy:nodeId="168570">
+    <graphics y="644.1186010310098" z="0.0" x="883.4020717687677"/>
+  </node>
+  <node id="169538" label="9606.ENSP00000225964" cy:nodeId="167610">
+    <graphics y="-438.540468042514" z="0.0" x="-595.3977892789794"/>
+  </node>
+  <node id="169405" label="9606.ENSP00000377494" cy:nodeId="168666">
+    <graphics y="744.1186010310098" z="0.0" x="283.40207176876766"/>
+  </node>
+  <node id="169522" label="9606.ENSP00000359114" cy:nodeId="167706">
+    <graphics y="258.3300799672279" z="0.0" x="-387.44789212997784"/>
+  </node>
+  <node id="169487" label="9606.ENSP00000375921" cy:nodeId="168027">
+    <graphics y="-659.0626266615216" z="0.0" x="-13.928645126748052"/>
+  </node>
+  <node id="169452" label="9606.ENSP00000477392" cy:nodeId="168507">
+    <graphics y="-1432.1856450791497" z="0.0" x="1174.9195886942225"/>
+  </node>
+  <node id="169426" label="9606.ENSP00000362125" cy:nodeId="168603">
+    <graphics y="744.1186010310098" z="0.0" x="-1616.5979282312323"/>
+  </node>
+  <node id="169532" label="9606.ENSP00000359603" cy:nodeId="167643">
+    <graphics y="235.01195713293282" z="0.0" x="-429.38202688173055"/>
+  </node>
+  <node id="169394" label="9606.ENSP00000231134" cy:nodeId="168699">
+    <graphics y="-1539.924994444384" z="0.0" x="1981.8843599649745"/>
+  </node>
+  <node id="169518" label="9606.ENSP00000377047" cy:nodeId="167739">
+    <graphics y="-478.6754045318073" z="0.0" x="-569.1034289921461"/>
+  </node>
+  <node id="169491" label="9606.ENSP00000359765" cy:nodeId="167964">
+    <graphics y="-122.77228598323791" z="0.0" x="-909.4630287321837"/>
+  </node>
+  <node id="169462" label="9606.ENSP00000361712" cy:nodeId="168444">
+    <graphics y="389.5395536482047" z="0.0" x="-866.6069567609335"/>
+  </node>
+  <node id="169447" label="9606.ENSP00000438526" cy:nodeId="168540">
+    <graphics y="644.1186010310098" z="0.0" x="-16.597928231232345"/>
+  </node>
+  <node id="169415" label="9606.ENSP00000298573" cy:nodeId="168636">
+    <graphics y="744.1186010310098" z="0.0" x="-616.5979282312322"/>
+  </node>
+  <node id="169383" label="9606.ENSP00000309161" cy:nodeId="168732">
+    <graphics y="644.1186010310098" z="0.0" x="-816.5979282312323"/>
+  </node>
+  <node id="169513" label="9606.ENSP00000297313" cy:nodeId="167772">
+    <graphics y="221.48928696076928" z="0.0" x="-934.7678554920641"/>
+  </node>
+  <node id="169500" label="9606.ENSP00000331040" cy:nodeId="167868">
+    <graphics y="-458.92571418539137" z="0.0" x="247.98529305706415"/>
+  </node>
+  <node id="169489" label="9606.ENSP00000330658" cy:nodeId="167997">
+    <graphics y="-1432.1856450791497" z="0.0" x="1072.5979982706385"/>
+  </node>
+  <node id="169554" label="9606.ENSP00000320147" cy:nodeId="167517">
+    <graphics y="298.0621759312728" z="0.0" x="-60.22464219083213"/>
+  </node>
+  <node id="169436" label="9606.ENSP00000378812" cy:nodeId="168573">
+    <graphics y="644.1186010310098" z="0.0" x="1083.4020717687677"/>
+  </node>
+  <node id="169404" label="9606.ENSP00000357588" cy:nodeId="168669">
+    <graphics y="744.1186010310098" z="0.0" x="483.40207176876766"/>
+  </node>
+  <node id="169496" label="9606.ENSP00000484638" cy:nodeId="167901">
+    <graphics y="247.17780940029297" z="0.0" x="73.94640548431516"/>
+  </node>
+  <node id="169475" label="9606.ENSP00000495996" cy:nodeId="168222">
+    <graphics y="-59.21588311513233" z="0.0" x="566.4612206633901"/>
+  </node>
+  <node id="169464" label="9606.ENSP00000374240" cy:nodeId="168414">
+    <graphics y="-620.7833053797963" z="0.0" x="73.94640548431516"/>
+  </node>
+  <node id="169549" label="9606.ENSP00000218004" cy:nodeId="167550">
+    <graphics y="73.51956653657135" z="0.0" x="-1023.1981287248309"/>
+  </node>
+  <node id="169425" label="9606.ENSP00000362095" cy:nodeId="168606">
+    <graphics y="644.1186010310098" z="0.0" x="2083.4020717687677"/>
+  </node>
+  <node id="169393" label="9606.ENSP00000264381" cy:nodeId="168702">
+    <graphics y="-1539.924994444384" z="0.0" x="1881.8843599649745"/>
+  </node>
+  <node id="169480" label="9606.ENSP00000410041" cy:nodeId="168159">
+    <graphics y="544.1186010310098" z="0.0" x="-24.028557149689505"/>
+  </node>
+  <node id="169471" label="9606.ENSP00000345502" cy:nodeId="168351">
+    <graphics y="-667.8027479897517" z="0.0" x="737.3970683498264"/>
+  </node>
+  <node id="169461" label="9606.ENSP00000361770" cy:nodeId="168447">
+    <graphics y="417.1159693892446" z="0.0" x="-903.2203062237297"/>
+  </node>
+  <node id="169560" label="9606.ENSP00000205143" cy:nodeId="167487">
+    <graphics y="-218.84764888279597" z="0.0" x="576.7803113618588"/>
+  </node>
+  <node id="169446" label="9606.ENSP00000341524" cy:nodeId="168543">
+    <graphics y="644.1186010310098" z="0.0" x="183.40207176876766"/>
+  </node>
+  <node id="169543" label="9606.ENSP00000482169" cy:nodeId="167583">
+    <graphics y="43.961780810594064" z="0.0" x="272.3098930766546"/>
+  </node>
+  <node id="169414" label="9606.ENSP00000199936" cy:nodeId="168639">
+    <graphics y="744.1186010310098" z="0.0" x="-416.59792823123234"/>
+  </node>
+  <node id="169526" label="9606.ENSP00000327368" cy:nodeId="167679">
+    <graphics y="207.75546404867782" z="0.0" x="-468.86987431155853"/>
+  </node>
+  <node id="169382" label="9606.ENSP00000486109" cy:nodeId="168735">
+    <graphics y="644.1186010310098" z="0.0" x="-616.5979282312323"/>
+  </node>
+</graph>

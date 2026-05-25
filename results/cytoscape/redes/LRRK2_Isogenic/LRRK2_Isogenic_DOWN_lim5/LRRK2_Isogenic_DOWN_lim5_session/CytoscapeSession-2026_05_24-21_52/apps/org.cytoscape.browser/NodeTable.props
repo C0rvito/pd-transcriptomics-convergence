@@ -1,0 +1,248 @@
+Rede_LRRK2_Isogenic_UP_lim5 default  node,0,SUID,false
+Rede_LRRK2_Isogenic_UP_lim5 default  node,1,shared name,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,2,selected,false
+Rede_LRRK2_Isogenic_UP_lim5 default  node,3,name,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,4,stringdb::canonical name,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,5,stringdb::node color,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,6,display name,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,7,stringdb::full name,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,8,stringdb::database identifier,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,9,stringdb::description,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,10,@id,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,11,stringdb::namespace,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,12,stringdb::node type,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,13,query term,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,14,stringdb::sequence,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,15,stringdb::species,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,16,stringdb::structures,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,17,stringdb::imageurl,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,18,stringdb::STRING style,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,19,stringdb::enhancedLabel Passthrough,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,20,compartment::cytoskeleton,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,21,compartment::cytosol,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,22,compartment::endoplasmic reticulum,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,23,compartment::endosome,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,24,compartment::extracellular,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,25,compartment::golgi apparatus,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,26,compartment::lysosome,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,27,compartment::mitochondrion,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,28,compartment::nucleus,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,29,compartment::peroxisome,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,30,compartment::plasma membrane,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,31,target::development level,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,32,target::family,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,33,tissue::adrenal gland,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,34,tissue::blood,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,35,tissue::bone,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,36,tissue::bone marrow,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,37,tissue::eye,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,38,tissue::gall bladder,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,39,tissue::heart,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,40,tissue::intestine,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,41,tissue::kidney,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,42,tissue::liver,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,43,tissue::lung,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,44,tissue::muscle,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,45,tissue::nervous system,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,46,tissue::pancreas,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,47,tissue::saliva,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,48,tissue::skin,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,49,tissue::spleen,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,50,tissue::stomach,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,51,tissue::thyroid gland,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,52,tissue::urine,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,53,gene_id,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,54,gene_symbol,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,55,baseMean,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,56,log2FoldChange,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,57,lfcSE,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,58,pvalue,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,59,padj,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,60,UP/DOWN,true
+Rede_LRRK2_Isogenic_UP_lim5 default  node,61,abs_log2FC,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,0,SUID,false
+Rede_LRRK2_Isogenic_UP_lim15 default  node,1,shared name,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,2,selected,false
+Rede_LRRK2_Isogenic_UP_lim15 default  node,3,name,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,4,stringdb::canonical name,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,5,stringdb::node color,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,6,display name,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,7,stringdb::full name,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,8,stringdb::database identifier,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,9,stringdb::description,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,10,@id,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,11,stringdb::namespace,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,12,stringdb::node type,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,13,query term,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,14,stringdb::sequence,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,15,stringdb::species,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,16,stringdb::structures,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,17,stringdb::imageurl,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,18,stringdb::STRING style,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,19,stringdb::enhancedLabel Passthrough,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,20,compartment::cytoskeleton,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,21,compartment::cytosol,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,22,compartment::endoplasmic reticulum,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,23,compartment::endosome,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,24,compartment::extracellular,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,25,compartment::golgi apparatus,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,26,compartment::lysosome,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,27,compartment::mitochondrion,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,28,compartment::nucleus,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,29,compartment::peroxisome,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,30,compartment::plasma membrane,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,31,target::development level,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,32,target::family,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,33,tissue::adrenal gland,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,34,tissue::blood,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,35,tissue::bone,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,36,tissue::bone marrow,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,37,tissue::eye,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,38,tissue::gall bladder,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,39,tissue::heart,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,40,tissue::intestine,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,41,tissue::kidney,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,42,tissue::liver,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,43,tissue::lung,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,44,tissue::muscle,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,45,tissue::nervous system,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,46,tissue::pancreas,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,47,tissue::saliva,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,48,tissue::skin,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,49,tissue::spleen,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,50,tissue::stomach,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,51,tissue::thyroid gland,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,52,tissue::urine,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,53,gene_id,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,54,gene_symbol,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,55,baseMean,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,56,log2FoldChange,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,57,lfcSE,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,58,pvalue,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,59,padj,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,60,UP/DOWN,true
+Rede_LRRK2_Isogenic_UP_lim15 default  node,61,abs_log2FC,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,0,SUID,false
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,1,shared name,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,2,selected,false
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,3,name,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,4,stringdb::canonical name,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,5,stringdb::node color,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,6,display name,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,7,stringdb::full name,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,8,stringdb::database identifier,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,9,stringdb::description,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,10,@id,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,11,stringdb::namespace,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,12,stringdb::node type,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,13,query term,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,14,stringdb::sequence,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,15,stringdb::species,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,16,stringdb::structures,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,17,stringdb::imageurl,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,18,stringdb::STRING style,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,19,stringdb::enhancedLabel Passthrough,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,20,compartment::cytoskeleton,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,21,compartment::cytosol,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,22,compartment::endoplasmic reticulum,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,23,compartment::endosome,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,24,compartment::extracellular,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,25,compartment::golgi apparatus,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,26,compartment::lysosome,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,27,compartment::mitochondrion,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,28,compartment::nucleus,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,29,compartment::peroxisome,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,30,compartment::plasma membrane,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,31,target::development level,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,32,target::family,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,33,tissue::adrenal gland,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,34,tissue::blood,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,35,tissue::bone,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,36,tissue::bone marrow,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,37,tissue::eye,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,38,tissue::gall bladder,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,39,tissue::heart,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,40,tissue::intestine,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,41,tissue::kidney,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,42,tissue::liver,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,43,tissue::lung,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,44,tissue::muscle,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,45,tissue::nervous system,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,46,tissue::pancreas,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,47,tissue::saliva,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,48,tissue::skin,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,49,tissue::spleen,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,50,tissue::stomach,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,51,tissue::thyroid gland,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,52,tissue::urine,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,53,gene_id,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,54,gene_symbol,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,55,baseMean,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,56,log2FoldChange,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,57,lfcSE,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,58,pvalue,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,59,padj,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,60,UP/DOWN,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  node,61,abs_log2FC,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,0,SUID,false
+Rede_LRRK2_Isogenic_UP_lim10 default  node,1,shared name,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,2,selected,false
+Rede_LRRK2_Isogenic_UP_lim10 default  node,3,name,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,4,stringdb::canonical name,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,5,stringdb::node color,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,6,display name,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,7,stringdb::full name,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,8,stringdb::database identifier,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,9,stringdb::description,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,10,@id,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,11,stringdb::namespace,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,12,stringdb::node type,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,13,query term,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,14,stringdb::sequence,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,15,stringdb::species,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,16,stringdb::structures,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,17,stringdb::imageurl,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,18,stringdb::STRING style,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,19,stringdb::enhancedLabel Passthrough,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,20,compartment::cytoskeleton,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,21,compartment::cytosol,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,22,compartment::endoplasmic reticulum,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,23,compartment::endosome,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,24,compartment::extracellular,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,25,compartment::golgi apparatus,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,26,compartment::lysosome,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,27,compartment::mitochondrion,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,28,compartment::nucleus,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,29,compartment::peroxisome,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,30,compartment::plasma membrane,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,31,target::development level,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,32,target::family,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,33,tissue::adrenal gland,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,34,tissue::blood,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,35,tissue::bone,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,36,tissue::bone marrow,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,37,tissue::eye,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,38,tissue::gall bladder,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,39,tissue::heart,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,40,tissue::intestine,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,41,tissue::kidney,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,42,tissue::liver,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,43,tissue::lung,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,44,tissue::muscle,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,45,tissue::nervous system,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,46,tissue::pancreas,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,47,tissue::saliva,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,48,tissue::skin,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,49,tissue::spleen,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,50,tissue::stomach,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,51,tissue::thyroid gland,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,52,tissue::urine,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,53,gene_id,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,54,gene_symbol,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,55,baseMean,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,56,log2FoldChange,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,57,lfcSE,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,58,pvalue,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,59,padj,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,60,UP/DOWN,true
+Rede_LRRK2_Isogenic_UP_lim10 default  node,61,abs_log2FC,true

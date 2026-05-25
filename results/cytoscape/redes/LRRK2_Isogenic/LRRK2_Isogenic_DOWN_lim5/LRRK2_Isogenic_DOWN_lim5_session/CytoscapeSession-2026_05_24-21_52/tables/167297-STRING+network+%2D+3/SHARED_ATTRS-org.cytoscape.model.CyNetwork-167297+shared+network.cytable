@@ -1,0 +1,6 @@
+"CyCSV-Version","1"
+"SUID","confidence score","data version","database","enrichmentTables","has images","network type","shared name","species","uri"
+"java.lang.Long","java.lang.Double","java.lang.String","java.lang.String","java.util.List<java.lang.String>","java.lang.Boolean","java.lang.String","java.lang.String","java.lang.String","java.lang.String"
+"","mutable","mutable","mutable","mutable","mutable","mutable","","mutable","mutable"
+"167297 shared network",""
+"167338","0.5","12","string-db",,"true","full STRING network","STRING network - 3","Homo sapiens","https://api12b.jensenlab.org/network"

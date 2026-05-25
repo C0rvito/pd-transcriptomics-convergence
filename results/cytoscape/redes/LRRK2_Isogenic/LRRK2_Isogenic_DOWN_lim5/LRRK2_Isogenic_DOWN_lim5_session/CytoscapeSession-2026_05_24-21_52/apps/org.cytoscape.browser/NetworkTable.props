@@ -1,0 +1,52 @@
+Rede_LRRK2_Isogenic_UP_lim5 default  network,0,SUID,false
+Rede_LRRK2_Isogenic_UP_lim5 default  network,1,selected,false
+Rede_LRRK2_Isogenic_UP_lim5 default  network,2,shared name,true
+Rede_LRRK2_Isogenic_UP_lim5 default  network,3,name,true
+Rede_LRRK2_Isogenic_UP_lim5 default  network,4,database,true
+Rede_LRRK2_Isogenic_UP_lim5 default  network,5,species,true
+Rede_LRRK2_Isogenic_UP_lim5 default  network,6,enrichmentTables,true
+Rede_LRRK2_Isogenic_UP_lim5 default  network,7,confidence score,true
+Rede_LRRK2_Isogenic_UP_lim5 default  network,8,network type,true
+Rede_LRRK2_Isogenic_UP_lim5 default  network,9,data version,true
+Rede_LRRK2_Isogenic_UP_lim5 default  network,10,uri,true
+Rede_LRRK2_Isogenic_UP_lim5 default  network,11,has images,true
+Rede_LRRK2_Isogenic_UP_lim5 default  network,12,__Annotations,true
+Rede_LRRK2_Isogenic_UP_lim15 default  network,0,SUID,false
+Rede_LRRK2_Isogenic_UP_lim15 default  network,1,selected,false
+Rede_LRRK2_Isogenic_UP_lim15 default  network,2,shared name,true
+Rede_LRRK2_Isogenic_UP_lim15 default  network,3,name,true
+Rede_LRRK2_Isogenic_UP_lim15 default  network,4,database,true
+Rede_LRRK2_Isogenic_UP_lim15 default  network,5,species,true
+Rede_LRRK2_Isogenic_UP_lim15 default  network,6,enrichmentTables,true
+Rede_LRRK2_Isogenic_UP_lim15 default  network,7,confidence score,true
+Rede_LRRK2_Isogenic_UP_lim15 default  network,8,network type,true
+Rede_LRRK2_Isogenic_UP_lim15 default  network,9,data version,true
+Rede_LRRK2_Isogenic_UP_lim15 default  network,10,uri,true
+Rede_LRRK2_Isogenic_UP_lim15 default  network,11,has images,true
+Rede_LRRK2_Isogenic_UP_lim15 default  network,12,__Annotations,true
+Rede_LRRK2_Isogenic_UP_lim10 default  network,0,SUID,false
+Rede_LRRK2_Isogenic_UP_lim10 default  network,1,selected,false
+Rede_LRRK2_Isogenic_UP_lim10 default  network,2,shared name,true
+Rede_LRRK2_Isogenic_UP_lim10 default  network,3,name,true
+Rede_LRRK2_Isogenic_UP_lim10 default  network,4,database,true
+Rede_LRRK2_Isogenic_UP_lim10 default  network,5,species,true
+Rede_LRRK2_Isogenic_UP_lim10 default  network,6,enrichmentTables,true
+Rede_LRRK2_Isogenic_UP_lim10 default  network,7,confidence score,true
+Rede_LRRK2_Isogenic_UP_lim10 default  network,8,network type,true
+Rede_LRRK2_Isogenic_UP_lim10 default  network,9,data version,true
+Rede_LRRK2_Isogenic_UP_lim10 default  network,10,uri,true
+Rede_LRRK2_Isogenic_UP_lim10 default  network,11,has images,true
+Rede_LRRK2_Isogenic_UP_lim10 default  network,12,__Annotations,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  network,0,SUID,false
+Rede_LRRK2_Isogenic_DOWN_lim5 default  network,1,selected,false
+Rede_LRRK2_Isogenic_DOWN_lim5 default  network,2,shared name,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  network,3,name,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  network,4,database,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  network,5,species,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  network,6,enrichmentTables,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  network,7,confidence score,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  network,8,network type,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  network,9,data version,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  network,10,uri,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  network,11,has images,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  network,12,__Annotations,true

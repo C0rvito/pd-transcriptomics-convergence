@@ -1,75 +1,99 @@
 from typing import List, Dict
 from pathlib import Path
 import polars as pl
-import pandas as pd
 import gc
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from utils.tracer import trace_step, tracer
 
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 _ESTE_ARQUIVO = Path(__file__).resolve()
 RAIZ          = _ESTE_ARQUIVO.parent.parent.parent.parent
-
-DADOS = RAIZ / "results"
-OUTPUTS = RAIZ / "data" / "processed" / "redes"
-
-LRRK2 = DADOS / "LRRK2_Ranked.xlsx"
-SNCA = DADOS / "SNCA_Ranked.xlsx"
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-def coleta_planilhas(file_path: Path, planilhas: List) -> None:
-    dfs_dict = pl.read_excel(
-        file_path,
-        sheet_name=planilhas,
-        engine="calamine"
-        )
-    for nome, df in dfs_dict.items():
-       arquivo_saida = f"{nome}.csv"
-       df.write_csv(OUTPUTS / arquivo_saida)
-       
-       print(f"Planilha '{nome}' processada e salva em: {OUTPUTS / arquivo_saida}")
-        
-    return 
-
-def concatena_up_down(arquivo_up: Path, arquivo_down: Path) -> pd.DataFrame:
-    GENE = arquivo_up.stem.split("_")[0]  # Exemplo: "LRRK2" ou "SNCA"
-    print(f"Processando {GENE}...")
+class ProcessadorDados:
+    """Classe responsável pelo processamento de dados usando Polars."""
     
-    lf_up = pl.scan_csv(arquivo_up)
-    lf_down = pl.scan_csv(arquivo_down)
+    def __init__(self, output_dir: Path):
+        self.output_dir = output_dir
+        self.output_dir.mkdir(parents=True, exist_ok=True)
 
-    print("Concatenando os DataFrames...")
-    q = (
-        pl.concat([lf_up, lf_down])
-        .with_columns(
+    @trace_step("Extraindo Planilhas Excel")
+    def coleta_planilhas(self, file_path: Path, planilhas: List[str]) -> Dict[str, Path]:
+        """Lê planilhas de um arquivo Excel e salva como CSVs separados."""
+        dfs_dict = pl.read_excel(
+            file_path,
+            sheet_name=planilhas,
+            engine="calamine"
+        )
+        
+        caminhos_saida = {}
+        for nome, df in dfs_dict.items():
+            arquivo_saida = self.output_dir / f"{nome}.csv"
+            df.write_csv(arquivo_saida)
+            caminhos_saida[nome] = arquivo_saida
+        
+        del dfs_dict
+        gc.collect()
+        return caminhos_saida
+
+    def preparar_direcao(self, df_base: pl.LazyFrame, direcao: str) -> pl.DataFrame:
+        """Aplica filtros e colunas extras conforme a direção desejada."""
+        q = df_base.with_columns(
             pl.when(pl.col("log2FoldChange") > 0)
             .then(pl.lit("Up"))
             .otherwise(pl.lit("Down"))
-            .alias("UP/DOWN")
-        )
-    )
+            .alias("UP/DOWN"),
+            pl.col("log2FoldChange").abs().alias("abs_log2FC")
+        ).filter(pl.col("padj") < 0.05)
 
-    q.collect().write_csv(OUTPUTS / f"{GENE}_Up_Down.csv")
+        if direcao == "UP":
+            q = q.filter(pl.col("log2FoldChange") > 0)
+        elif direcao == "DOWN":
+            q = q.filter(pl.col("log2FoldChange") < 0)
         
-    return q.collect().to_pandas()
+        return q.sort("padj").collect()
 
-LRRK2_UP = OUTPUTS / "LRRK2_Isogenic_Up.csv"
-LRRK2_DOWN = OUTPUTS / "LRRK2_Isogenic_Down.csv"
+    @trace_step("Processando Análise")
+    def processar_analise(self, analysis_id: str, excel_path: Path, up_sheet: str, down_sheet: str, directions: List[str]) -> Dict[str, pl.DataFrame]:
+        """Processa uma análise específica e retorna DataFrames para cada direção."""
+        planilhas = [up_sheet, down_sheet]
+        caminhos = self.coleta_planilhas(excel_path, planilhas)
+        
+        lf_up = pl.scan_csv(caminhos[up_sheet])
+        lf_down = pl.scan_csv(caminhos[down_sheet])
+        lf_combined = pl.concat([lf_up, lf_down])
 
-SNCA_UP = OUTPUTS / "SNCA_Up.csv"
-SNCA_DOWN = OUTPUTS / "SNCA_Down.csv"
+        resultados = {}
+        for dir_name in directions:
+            if dir_name == "UP":
+                df = self.preparar_direcao(lf_up, "UP")
+            elif dir_name == "DOWN":
+                df = self.preparar_direcao(lf_down, "DOWN")
+            else: # UP/DOWN
+                df = self.preparar_direcao(lf_combined, "UP/DOWN")
+            
+            # Salvar arquivo intermediário
+            nome_arquivo = f"{analysis_id}_{dir_name.replace('/', '_')}.csv"
+            df.write_csv(self.output_dir / nome_arquivo)
+            resultados[dir_name] = df
+            
+        gc.collect()
+        return resultados
 
-def main():
-    planilhas = ["LRRK2_Isogenic_Up", "LRRK2_Isogenic_Down", "SNCA_Up", "SNCA_Down"]
-    coleta_planilhas(LRRK2, planilhas[:2])
-    coleta_planilhas(SNCA, planilhas[2:])
-    lrrk2_df = concatena_up_down(LRRK2_UP, LRRK2_DOWN)
-    snca_df = concatena_up_down(SNCA_UP, SNCA_DOWN)
-
-    print(f"LRRK2 DataFrame:\n{type(lrrk2_df)}\n{lrrk2_df.head()}")
-    print(f"SNCA DataFrame:\n{type(snca_df)}\n{snca_df.head()}")
-
-    
-    return lrrk2_df, snca_df
-
-if __name__ == "__main__":
-    main()
-    gc.collect()
+    @staticmethod
+    def extrai_genes_string(df: pl.DataFrame) -> str:
+        """Extrai os símbolos dos genes como uma string separada por vírgulas."""
+        col_symbol = "gene_symbol" if "gene_symbol" in df.columns else "symbol"
+        if col_symbol not in df.columns:
+             return ""
+        genes = (
+            df.select(col_symbol)
+            .drop_nulls()
+            .unique()
+            .to_series()
+            .to_list()
+        )
+        return ",".join(map(str, genes))

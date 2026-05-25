@@ -1,0 +1,35 @@
+# Configuração para Formatação Acadêmica (ABNT)
+
+# Limites e Padrões
+dpi: 300
+font_family: "Arial" # Ou "Times New Roman"
+font_size_title: 12
+font_size_body: 10
+
+# Tabelas para Formatar
+tables_to_format:
+  - input: "results/LRRK2_Combined_DEGs.tsv"
+    output_name: "Tabela_S1_DEGs_LRRK2"
+    title: "Tabela Suplementar 1 - Genes Diferencialmente Expressos para LRRK2"
+  
+  - input: "results/SNCA_Combined_DEGs.tsv"
+    output_name: "Tabela_S2_DEGs_SNCA"
+    title: "Tabela Suplementar 2 - Genes Diferencialmente Expressos para SNCA"
+
+# Painéis de Figuras para Criar
+panels_to_create:
+  - output_name: "Figura_1_PCA_Combined"
+    images:
+      - "plots/LRRK2_Combined-QC_PCA.png"
+      - "plots/SNCA_Combined-QC_PCA.png"
+    labels: ["A", "B"]
+    layout: "1x2" # 1 linha, 2 colunas
+    caption: "Figura 1 - Análise de Componentes Principais (PCA) para os datasets combinados. (A) LRRK2. (B) SNCA. Fonte: O autor."
+
+  - output_name: "Figura_2_Volcanos"
+    images:
+      - "plots/VolcanoPlot_LRRK2_Combined.png"
+      - "plots/VolcanoPlot_SNCA_Combined.png"
+    labels: ["A", "B"]
+    layout: "1x2"
+    caption: "Figura 2 - Gráficos de Volcano evidenciando genes diferencialmente expressos. Fonte: O autor."

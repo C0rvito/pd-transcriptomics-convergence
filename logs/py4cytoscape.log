@@ -1,0 +1,37 @@
+2026-05-24 07:46:26,030 [DEBUG] py4...: Calling commands_help('string')
+2026-05-24 07:46:26,030 [DEBUG] py4...: Attempting to direct connect to Cytoscape on http://127.0.0.1:1234/v1
+2026-05-24 07:46:26,033 [DEBUG] py4...: Detected py4cytoscape running on Cytoscape workstation
+2026-05-24 07:46:26,033 [DEBUG] py4...: HTTP GET(http://127.0.0.1:1234/v1/commands/string)
+2026-05-24 07:46:26,035 [DEBUG] py4...: OK[200], content: Available commands for 'string':
+  add nodes
+  change confidence
+  change type
+  compound query
+  cross-species query
+  disease query
+  enable flat
+  enable glass
+  expand
+  fetch images
+  filter enrichment
+  hide charts
+  list selected species
+  list species
+  make string
+  protein query
+  pubmed query
+  retrieve enrichment
+  retrieve group-wise annotaion
+  retrieve group-wise enrichment
+  retrieve publications
+  settings
+  show charts
+  show enrichment
+  show images
+  show labels
+  show publications
+  stringify
+  version
+
+2026-05-24 07:46:26,035 [DEBUG] py4...: Returning 'commands_help': ['add nodes', 'change confidence', 'change type', 'compound query', 'cross-species query', 'disease query', 'enable flat', 'enable glass', 'expand', 'fetch images', 'filter enrichment', 'hide charts', 'list selected species', 'list species', 'make string', 'protein query', 'pubmed query', 'retrieve enrichment', 'retrieve group-wise annotaion', 'retrieve group-wise enrichment', 'retrieve publications', 'settings', 'show charts', 'show enrichment', 'show images', 'show labels', 'show publications', 'stringify', 'version']
+2026-05-24 07:46:26,035 [DEBUG] py4...: --------------------

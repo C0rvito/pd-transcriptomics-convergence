@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<graph id="158608" label="STRING network" cy:view="0" cy:registered="0" cy:documentVersion="3.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cy="http://www.cytoscape.org" xmlns="http://www.cs.rpi.edu/XGMML">
+  <att>
+    <graph id="158649" label="Rede_LRRK2_Isogenic_UP_lim5" cy:registered="1">
+      <node id="159971" label="9606.ENSP00000462435"/>
+      <node id="159968" label="9606.ENSP00000297282"/>
+      <node id="159965" label="9606.ENSP00000239374"/>
+      <node id="159962" label="9606.ENSP00000479816"/>
+      <node id="159959" label="9606.ENSP00000265113"/>
+      <node id="159956" label="9606.ENSP00000256495"/>
+      <node id="159953" label="9606.ENSP00000233156"/>
+      <node id="159950" label="9606.ENSP00000370997"/>
+      <node id="159947" label="9606.ENSP00000061240"/>
+      <node id="159944" label="9606.ENSP00000241052"/>
+      <node id="159941" label="9606.ENSP00000253812"/>
+      <node id="159938" label="9606.ENSP00000426120"/>
+      <node id="159935" label="9606.ENSP00000379678"/>
+      <node id="159932" label="9606.ENSP00000357844"/>
+      <node id="159929" label="9606.ENSP00000423014"/>
+      <node id="159926" label="9606.ENSP00000352314"/>
+      <node id="159923" label="9606.ENSP00000281830"/>
+      <node id="159920" label="9606.ENSP00000362294"/>
+      <node id="159917" label="9606.ENSP00000302657"/>
+      <node id="159914" label="9606.ENSP00000267807"/>
+      <node id="159911" label="9606.ENSP00000364864"/>
+      <node id="159908" label="9606.ENSP00000253407"/>
+      <node id="159905" label="9606.ENSP00000371786"/>
+      <node id="159902" label="9606.ENSP00000393835"/>
+      <node id="159899" label="9606.ENSP00000359393"/>
+      <node id="159896" label="9606.ENSP00000381611"/>
+      <node id="159893" label="9606.ENSP00000381214"/>
+      <node id="159890" label="9606.ENSP00000276659"/>
+      <node id="159887" label="9606.ENSP00000471277"/>
+      <node id="159884" label="9606.ENSP00000380524"/>
+      <node id="159881" label="9606.ENSP00000310832"/>
+      <node id="159878" label="9606.ENSP00000445786"/>
+      <node id="159875" label="9606.ENSP00000402092"/>
+      <node id="159872" label="9606.ENSP00000395220"/>
+      <node id="159869" label="9606.ENSP00000369860"/>
+      <node id="159866" label="9606.ENSP00000350716"/>
+      <node id="159863" label="9606.ENSP00000384331"/>
+      <node id="159860" label="9606.ENSP00000356143"/>
+      <node id="159857" label="9606.ENSP00000226444"/>
+      <node id="159854" label="9606.ENSP00000442786"/>
+      <node id="159851" label="9606.ENSP00000275230"/>
+      <node id="159848" label="9606.ENSP00000332592"/>
+      <node id="159845" label="9606.ENSP00000347046"/>
+      <node id="159842" label="9606.ENSP00000250340"/>
+      <node id="159839" label="9606.ENSP00000441823"/>
+      <node id="159836" label="9606.ENSP00000006015"/>
+      <node id="159833" label="9606.ENSP00000411132"/>
+      <node id="159830" label="9606.ENSP00000411096"/>
+      <node id="159827" label="9606.ENSP00000379999"/>
+      <node id="159824" label="9606.ENSP00000376647"/>
+      <node id="159821" label="9606.ENSP00000269503"/>
+      <node id="159818" label="9606.ENSP00000243673"/>
+      <node id="159815" label="9606.ENSP00000276297"/>
+      <node id="159812" label="9606.ENSP00000302578"/>
+      <node id="159809" label="9606.ENSP00000383909"/>
+      <node id="159806" label="9606.ENSP00000264613"/>
+      <node id="159803" label="9606.ENSP00000342313"/>
+      <node id="159800" label="9606.ENSP00000309772"/>
+      <node id="159797" label="9606.ENSP00000493594"/>
+      <node id="159794" label="9606.ENSP00000295962"/>
+      <node id="159791" label="9606.ENSP00000468956"/>
+      <node id="159788" label="9606.ENSP00000334037"/>
+      <node id="159785" label="9606.ENSP00000334153"/>
+      <node id="159782" label="9606.ENSP00000498662"/>
+      <node id="159779" label="9606.ENSP00000426548"/>
+      <node id="159776" label="9606.ENSP00000384000"/>
+      <node id="159773" label="9606.ENSP00000218075"/>
+      <node id="159770" label="9606.ENSP00000293894"/>
+      <node id="159767" label="9606.ENSP00000471516"/>
+      <node id="159764" label="9606.ENSP00000413575"/>
+      <node id="159761" label="9606.ENSP00000355760"/>
+      <node id="159758" label="9606.ENSP00000390932"/>
+      <node id="159755" label="9606.ENSP00000423313"/>
+      <node id="159752" label="9606.ENSP00000303129"/>
+      <node id="159749" label="9606.ENSP00000367001"/>
+      <node id="159746" label="9606.ENSP00000308024"/>
+      <node id="159743" label="9606.ENSP00000348163"/>
+      <node id="159740" label="9606.ENSP00000366827"/>
+      <node id="159737" label="9606.ENSP00000385749"/>
+      <node id="159734" label="9606.ENSP00000314946"/>
+      <node id="159716" label="9606.ENSP00000484472"/>
+      <node id="159701" label="9606.ENSP00000493302"/>
+      <node id="159695" label="9606.ENSP00000477648"/>
+      <node id="159692" label="9606.ENSP00000399485"/>
+      <node id="159671" label="9606.ENSP00000480322"/>
+      <node id="159665" label="9606.ENSP00000420127"/>
+      <node id="159653" label="9606.ENSP00000415579"/>
+      <node id="159641" label="9606.ENSP00000422591"/>
+      <node id="159626" label="9606.ENSP00000392423"/>
+      <node id="159611" label="9606.ENSP00000371420"/>
+      <node id="159596" label="9606.ENSP00000369976"/>
+      <node id="159593" label="9606.ENSP00000369895"/>
+      <node id="159569" label="9606.ENSP00000365280"/>
+      <node id="159563" label="9606.ENSP00000364683"/>
+      <node id="159554" label="9606.ENSP00000387075"/>
+      <node id="159551" label="9606.ENSP00000358765"/>
+      <node id="159533" label="9606.ENSP00000351142"/>
+      <node id="159500" label="9606.ENSP00000385636"/>
+      <node id="159479" label="9606.ENSP00000344314"/>
+      <node id="159473" label="9606.ENSP00000417035"/>
+      <node id="159458" label="9606.ENSP00000339917"/>
+      <node id="159452" label="9606.ENSP00000334941"/>
+      <node id="159440" label="9606.ENSP00000334329"/>
+      <node id="159431" label="9606.ENSP00000348455"/>
+      <node id="159428" label="9606.ENSP00000330341"/>
+      <node id="159401" label="9606.ENSP00000347942"/>
+      <node id="159389" label="9606.ENSP00000332879"/>
+      <node id="159377" label="9606.ENSP00000418525"/>
+      <node id="159365" label="9606.ENSP00000307549"/>
+      <node id="159356" label="9606.ENSP00000482232"/>
+      <node id="159350" label="9606.ENSP00000303452"/>
+      <node id="159323" label="9606.ENSP00000347684"/>
+      <node id="159305" label="9606.ENSP00000498217"/>
+      <node id="159296" label="9606.ENSP00000344479"/>
+      <node id="159290" label="9606.ENSP00000374205"/>
+      <node id="159281" label="9606.ENSP00000340914"/>
+      <node id="159278" label="9606.ENSP00000293441"/>
+      <node id="159266" label="9606.ENSP00000282701"/>
+      <node id="159260" label="9606.ENSP00000340226"/>
+      <node id="159257" label="9606.ENSP00000272224"/>
+      <node id="159251" label="9606.ENSP00000378743"/>
+      <node id="159245" label="9606.ENSP00000348314"/>
+      <node id="159239" label="9606.ENSP00000310829"/>
+      <node id="159236" label="9606.ENSP00000267584"/>
+      <node id="159230" label="9606.ENSP00000267377"/>
+      <node id="159224" label="9606.ENSP00000360973"/>
+      <node id="159212" label="9606.ENSP00000284984"/>
+      <node id="159203" label="9606.ENSP00000437621"/>
+      <node id="159194" label="9606.ENSP00000321106"/>
+      <node id="159185" label="9606.ENSP00000392495"/>
+      <node id="159179" label="9606.ENSP00000346659"/>
+      <node id="159173" label="9606.ENSP00000263321"/>
+      <node id="159167" label="9606.ENSP00000380602"/>
+      <node id="159164" label="9606.ENSP00000263054"/>
+      <node id="159152" label="9606.ENSP00000262776"/>
+      <node id="159146" label="9606.ENSP00000371689"/>
+      <node id="159143" label="9606.ENSP00000262717"/>
+      <node id="159137" label="9606.ENSP00000356275"/>
+      <node id="159134" label="9606.ENSP00000257818"/>
+      <node id="159116" label="9606.ENSP00000257566"/>
+      <node id="159110" label="9606.ENSP00000265709"/>
+      <node id="159107" label="9606.ENSP00000256509"/>
+      <node id="159101" label="9606.ENSP00000428572"/>
+      <node id="159098" label="9606.ENSP00000252593"/>
+      <node id="159092" label="9606.ENSP00000403644"/>
+      <node id="159089" label="9606.ENSP00000250018"/>
+      <node id="159077" label="9606.ENSP00000482841"/>
+      <node id="159065" label="9606.ENSP00000265734"/>
+      <node id="159056" label="9606.ENSP00000482674"/>
+      <node id="159050" label="9606.ENSP00000484658"/>
+      <node id="159044" label="9606.ENSP00000244573"/>
+      <node id="159038" label="9606.ENSP00000378199"/>
+      <node id="159032" label="9606.ENSP00000482546"/>
+      <node id="159029" label="9606.ENSP00000244537"/>
+      <node id="159020" label="9606.ENSP00000265340"/>
+      <node id="159011" label="9606.ENSP00000372170"/>
+      <node id="159005" label="9606.ENSP00000495061"/>
+      <node id="158999" label="9606.ENSP00000456609"/>
+      <node id="158993" label="9606.ENSP00000249750"/>
+      <node id="158987" label="9606.ENSP00000480439"/>
+      <node id="158984" label="9606.ENSP00000232219"/>
+      <node id="158966" label="9606.ENSP00000415786"/>
+      <node id="158954" label="9606.ENSP00000368104"/>
+      <node id="158939" label="9606.ENSP00000378131"/>
+      <node id="158933" label="9606.ENSP00000350786"/>
+      <node id="158930" label="9606.ENSP00000225823"/>
+      <node id="158918" label="9606.ENSP00000410294"/>
+      <node id="158897" label="9606.ENSP00000370473"/>
+      <node id="158885" label="9606.ENSP00000302111"/>
+      <node id="158879" label="9606.ENSP00000297261"/>
+      <node id="158876" label="9606.ENSP00000220772"/>
+      <node id="158870" label="9606.ENSP00000240328"/>
+      <node id="158867" label="9606.ENSP00000217939"/>
+      <node id="158861" label="9606.ENSP00000216286"/>
+      <node id="158855" label="9606.ENSP00000231749"/>
+      <node id="158852" label="9606.ENSP00000207457"/>
+      <node id="158846" label="9606.ENSP00000346839"/>
+      <node id="158840" label="9606.ENSP00000226218"/>
+      <node id="158834" label="9606.ENSP00000297848"/>
+      <node id="158828" label="9606.ENSP00000321797"/>
+      <node id="158822" label="9606.ENSP00000355896"/>
+      <node id="158816" label="9606.ENSP00000222390"/>
+      <node id="158810" label="9606.ENSP00000416330"/>
+      <node id="158804" label="9606.ENSP00000391826"/>
+      <node id="158798" label="9606.ENSP00000266085"/>
+      <node id="158792" label="9606.ENSP00000366246"/>
+      <node id="158786" label="9606.ENSP00000379140"/>
+      <node id="158780" label="9606.ENSP00000369889"/>
+      <node id="158774" label="9606.ENSP00000398632"/>
+      <node id="158768" label="9606.ENSP00000449404"/>
+      <node id="158741" label="9606.ENSP00000360120"/>
+      <node id="158738" label="9606.ENSP00000052754"/>
+      <edge id="159698" label="9606.ENSP00000399485 (pp) 9606.ENSP00000477648" source="159692" target="159695" cy:directed="0"/>
+      <edge id="159662" label="9606.ENSP00000392423 (pp) 9606.ENSP00000422591" source="159626" target="159641" cy:directed="0"/>
+      <edge id="159614" label="9606.ENSP00000371420 (pp) 9606.ENSP00000398632" source="159611" target="158774" cy:directed="0"/>
+      <edge id="159599" label="9606.ENSP00000369895 (pp) 9606.ENSP00000369976" source="159593" target="159596" cy:directed="0"/>
+      <edge id="159572" label="9606.ENSP00000365280 (pp) 9606.ENSP00000368104" source="159569" target="158954" cy:directed="0"/>
+      <edge id="159566" label="9606.ENSP00000364683 (pp) 9606.ENSP00000368104" source="159563" target="158954" cy:directed="0"/>
+      <edge id="159557" label="9606.ENSP00000358765 (pp) 9606.ENSP00000387075" source="159551" target="159554" cy:directed="0"/>
+      <edge id="159536" label="9606.ENSP00000351142 (pp) 9606.ENSP00000360973" source="159533" target="159224" cy:directed="0"/>
+      <edge id="159482" label="9606.ENSP00000344314 (pp) 9606.ENSP00000392495" source="159479" target="159185" cy:directed="0"/>
+      <edge id="159461" label="9606.ENSP00000339917 (pp) 9606.ENSP00000482674" source="159458" target="159056" cy:directed="0"/>
+      <edge id="159455" label="9606.ENSP00000334941 (pp) 9606.ENSP00000346839" source="159452" target="158846" cy:directed="0"/>
+      <edge id="159449" label="9606.ENSP00000334329 (pp) 9606.ENSP00000346839" source="159440" target="158846" cy:directed="0"/>
+      <edge id="159434" label="9606.ENSP00000330341 (pp) 9606.ENSP00000348455" source="159428" target="159431" cy:directed="0"/>
+      <edge id="159446" label="9606.ENSP00000332879 (pp) 9606.ENSP00000346839" source="159389" target="158846" cy:directed="0"/>
+      <edge id="159443" label="9606.ENSP00000332879 (pp) 9606.ENSP00000334329" source="159389" target="159440" cy:directed="0"/>
+      <edge id="159437" label="9606.ENSP00000332879 (pp) 9606.ENSP00000410294" source="159389" target="158918" cy:directed="0"/>
+      <edge id="159713" label="9606.ENSP00000418525 (pp) 9606.ENSP00000480322" source="159377" target="159671" cy:directed="0"/>
+      <edge id="159710" label="9606.ENSP00000418525 (pp) 9606.ENSP00000449404" source="159377" target="158768" cy:directed="0"/>
+      <edge id="159368" label="9606.ENSP00000307549 (pp) 9606.ENSP00000346659" source="159365" target="159179" cy:directed="0"/>
+      <edge id="159362" label="9606.ENSP00000303452 (pp) 9606.ENSP00000321106" source="159350" target="159194" cy:directed="0"/>
+      <edge id="159359" label="9606.ENSP00000303452 (pp) 9606.ENSP00000482232" source="159350" target="159356" cy:directed="0"/>
+      <edge id="159353" label="9606.ENSP00000303452 (pp) 9606.ENSP00000360973" source="159350" target="159224" cy:directed="0"/>
+      <edge id="159530" label="9606.ENSP00000347684 (pp) 9606.ENSP00000403644" source="159323" target="159092" cy:directed="0"/>
+      <edge id="159527" label="9606.ENSP00000347684 (pp) 9606.ENSP00000372170" source="159323" target="159011" cy:directed="0"/>
+      <edge id="159488" label="9606.ENSP00000344479 (pp) 9606.ENSP00000347684" source="159296" target="159323" cy:directed="0"/>
+      <edge id="159485" label="9606.ENSP00000344479 (pp) 9606.ENSP00000403644" source="159296" target="159092" cy:directed="0"/>
+      <edge id="159629" label="9606.ENSP00000374205 (pp) 9606.ENSP00000392423" source="159290" target="159626" cy:directed="0"/>
+      <edge id="159476" label="9606.ENSP00000340914 (pp) 9606.ENSP00000417035" source="159281" target="159473" cy:directed="0"/>
+      <edge id="159284" label="9606.ENSP00000293441 (pp) 9606.ENSP00000340914" source="159278" target="159281" cy:directed="0"/>
+      <edge id="159275" label="9606.ENSP00000282701 (pp) 9606.ENSP00000372170" source="159266" target="159011" cy:directed="0"/>
+      <edge id="159272" label="9606.ENSP00000282701 (pp) 9606.ENSP00000321797" source="159266" target="158828" cy:directed="0"/>
+      <edge id="159269" label="9606.ENSP00000282701 (pp) 9606.ENSP00000368104" source="159266" target="158954" cy:directed="0"/>
+      <edge id="159470" label="9606.ENSP00000340226 (pp) 9606.ENSP00000344479" source="159260" target="159296" cy:directed="0"/>
+      <edge id="159467" label="9606.ENSP00000340226 (pp) 9606.ENSP00000372170" source="159260" target="159011" cy:directed="0"/>
+      <edge id="159464" label="9606.ENSP00000340226 (pp) 9606.ENSP00000403644" source="159260" target="159092" cy:directed="0"/>
+      <edge id="159263" label="9606.ENSP00000272224 (pp) 9606.ENSP00000340226" source="159257" target="159260" cy:directed="0"/>
+      <edge id="159371" label="9606.ENSP00000310829 (pp) 9606.ENSP00000348314" source="159239" target="159245" cy:directed="0"/>
+      <edge id="159254" label="9606.ENSP00000267584 (pp) 9606.ENSP00000378743" source="159236" target="159251" cy:directed="0"/>
+      <edge id="159248" label="9606.ENSP00000267584 (pp) 9606.ENSP00000348314" source="159236" target="159245" cy:directed="0"/>
+      <edge id="159242" label="9606.ENSP00000267584 (pp) 9606.ENSP00000310829" source="159236" target="159239" cy:directed="0"/>
+      <edge id="159233" label="9606.ENSP00000267377 (pp) 9606.ENSP00000360973" source="159230" target="159224" cy:directed="0"/>
+      <edge id="159560" label="9606.ENSP00000360973 (pp) 9606.ENSP00000379140" source="159224" target="158786" cy:directed="0"/>
+      <edge id="159380" label="9606.ENSP00000321106 (pp) 9606.ENSP00000418525" source="159194" target="159377" cy:directed="0"/>
+      <edge id="159374" label="9606.ENSP00000321106 (pp) 9606.ENSP00000346839" source="159194" target="158846" cy:directed="0"/>
+      <edge id="159668" label="9606.ENSP00000392495 (pp) 9606.ENSP00000420127" source="159185" target="159665" cy:directed="0"/>
+      <edge id="159182" label="9606.ENSP00000263321 (pp) 9606.ENSP00000346659" source="159173" target="159179" cy:directed="0"/>
+      <edge id="159176" label="9606.ENSP00000263321 (pp) 9606.ENSP00000403644" source="159173" target="159092" cy:directed="0"/>
+      <edge id="159170" label="9606.ENSP00000263054 (pp) 9606.ENSP00000380602" source="159164" target="159167" cy:directed="0"/>
+      <edge id="159161" label="9606.ENSP00000262776 (pp) 9606.ENSP00000346839" source="159152" target="158846" cy:directed="0"/>
+      <edge id="159158" label="9606.ENSP00000262776 (pp) 9606.ENSP00000398632" source="159152" target="158774" cy:directed="0"/>
+      <edge id="159155" label="9606.ENSP00000262776 (pp) 9606.ENSP00000428572" source="159152" target="159101" cy:directed="0"/>
+      <edge id="159149" label="9606.ENSP00000262717 (pp) 9606.ENSP00000371689" source="159143" target="159146" cy:directed="0"/>
+      <edge id="159140" label="9606.ENSP00000257818 (pp) 9606.ENSP00000356275" source="159134" target="159137" cy:directed="0"/>
+      <edge id="159131" label="9606.ENSP00000257566 (pp) 9606.ENSP00000368104" source="159116" target="158954" cy:directed="0"/>
+      <edge id="159128" label="9606.ENSP00000257566 (pp) 9606.ENSP00000265340" source="159116" target="159020" cy:directed="0"/>
+      <edge id="159125" label="9606.ENSP00000257566 (pp) 9606.ENSP00000321797" source="159116" target="158828" cy:directed="0"/>
+      <edge id="159122" label="9606.ENSP00000257566 (pp) 9606.ENSP00000495061" source="159116" target="159005" cy:directed="0"/>
+      <edge id="159119" label="9606.ENSP00000257566 (pp) 9606.ENSP00000372170" source="159116" target="159011" cy:directed="0"/>
+      <edge id="159200" label="9606.ENSP00000265709 (pp) 9606.ENSP00000398632" source="159110" target="158774" cy:directed="0"/>
+      <edge id="159197" label="9606.ENSP00000265709 (pp) 9606.ENSP00000321106" source="159110" target="159194" cy:directed="0"/>
+      <edge id="159191" label="9606.ENSP00000265709 (pp) 9606.ENSP00000265734" source="159110" target="159065" cy:directed="0"/>
+      <edge id="159113" label="9606.ENSP00000256509 (pp) 9606.ENSP00000265709" source="159107" target="159110" cy:directed="0"/>
+      <edge id="159104" label="9606.ENSP00000252593 (pp) 9606.ENSP00000428572" source="159098" target="159101" cy:directed="0"/>
+      <edge id="159704" label="9606.ENSP00000403644 (pp) 9606.ENSP00000493302" source="159092" target="159701" cy:directed="0"/>
+      <edge id="159095" label="9606.ENSP00000250018 (pp) 9606.ENSP00000403644" source="159089" target="159092" cy:directed="0"/>
+      <edge id="159206" label="9606.ENSP00000265734 (pp) 9606.ENSP00000437621" source="159065" target="159203" cy:directed="0"/>
+      <edge id="159731" label="9606.ENSP00000482674 (pp) 9606.ENSP00000484658" source="159056" target="159050" cy:directed="0"/>
+      <edge id="159071" label="9606.ENSP00000244573 (pp) 9606.ENSP00000484658" source="159044" target="159050" cy:directed="0"/>
+      <edge id="159068" label="9606.ENSP00000244573 (pp) 9606.ENSP00000265734" source="159044" target="159065" cy:directed="0"/>
+      <edge id="159062" label="9606.ENSP00000244573 (pp) 9606.ENSP00000482674" source="159044" target="159056" cy:directed="0"/>
+      <edge id="159635" label="9606.ENSP00000378199 (pp) 9606.ENSP00000482546" source="159038" target="159032" cy:directed="0"/>
+      <edge id="159632" label="9606.ENSP00000378199 (pp) 9606.ENSP00000482674" source="159038" target="159056" cy:directed="0"/>
+      <edge id="159728" label="9606.ENSP00000482546 (pp) 9606.ENSP00000482674" source="159032" target="159056" cy:directed="0"/>
+      <edge id="159059" label="9606.ENSP00000244537 (pp) 9606.ENSP00000482674" source="159029" target="159056" cy:directed="0"/>
+      <edge id="159053" label="9606.ENSP00000244537 (pp) 9606.ENSP00000484658" source="159029" target="159050" cy:directed="0"/>
+      <edge id="159047" label="9606.ENSP00000244537 (pp) 9606.ENSP00000244573" source="159029" target="159044" cy:directed="0"/>
+      <edge id="159041" label="9606.ENSP00000244537 (pp) 9606.ENSP00000378199" source="159029" target="159038" cy:directed="0"/>
+      <edge id="159035" label="9606.ENSP00000244537 (pp) 9606.ENSP00000482546" source="159029" target="159032" cy:directed="0"/>
+      <edge id="159188" label="9606.ENSP00000265340 (pp) 9606.ENSP00000392495" source="159020" target="159185" cy:directed="0"/>
+      <edge id="159623" label="9606.ENSP00000372170 (pp) 9606.ENSP00000398632" source="159011" target="158774" cy:directed="0"/>
+      <edge id="159620" label="9606.ENSP00000372170 (pp) 9606.ENSP00000495061" source="159011" target="159005" cy:directed="0"/>
+      <edge id="159617" label="9606.ENSP00000372170 (pp) 9606.ENSP00000410294" source="159011" target="158918" cy:directed="0"/>
+      <edge id="159725" label="9606.ENSP00000456609 (pp) 9606.ENSP00000480439" source="158999" target="158987" cy:directed="0"/>
+      <edge id="159722" label="9606.ENSP00000456609 (pp) 9606.ENSP00000482841" source="158999" target="159077" cy:directed="0"/>
+      <edge id="159086" label="9606.ENSP00000249750 (pp) 9606.ENSP00000480439" source="158993" target="158987" cy:directed="0"/>
+      <edge id="159083" label="9606.ENSP00000249750 (pp) 9606.ENSP00000456609" source="158993" target="158999" cy:directed="0"/>
+      <edge id="159080" label="9606.ENSP00000249750 (pp) 9606.ENSP00000482841" source="158993" target="159077" cy:directed="0"/>
+      <edge id="159074" label="9606.ENSP00000249750 (pp) 9606.ENSP00000321797" source="158993" target="158828" cy:directed="0"/>
+      <edge id="159002" label="9606.ENSP00000232219 (pp) 9606.ENSP00000456609" source="158984" target="158999" cy:directed="0"/>
+      <edge id="158996" label="9606.ENSP00000232219 (pp) 9606.ENSP00000249750" source="158984" target="158993" cy:directed="0"/>
+      <edge id="158990" label="9606.ENSP00000232219 (pp) 9606.ENSP00000480439" source="158984" target="158987" cy:directed="0"/>
+      <edge id="159587" label="9606.ENSP00000368104 (pp) 9606.ENSP00000369889" source="158954" target="158780" cy:directed="0"/>
+      <edge id="159584" label="9606.ENSP00000368104 (pp) 9606.ENSP00000372170" source="158954" target="159011" cy:directed="0"/>
+      <edge id="159581" label="9606.ENSP00000368104 (pp) 9606.ENSP00000398632" source="158954" target="158774" cy:directed="0"/>
+      <edge id="159578" label="9606.ENSP00000368104 (pp) 9606.ENSP00000370473" source="158954" target="158897" cy:directed="0"/>
+      <edge id="159575" label="9606.ENSP00000368104 (pp) 9606.ENSP00000379140" source="158954" target="158786" cy:directed="0"/>
+      <edge id="158936" label="9606.ENSP00000225823 (pp) 9606.ENSP00000350786" source="158930" target="158933" cy:directed="0"/>
+      <edge id="159707" label="9606.ENSP00000410294 (pp) 9606.ENSP00000456609" source="158918" target="158999" cy:directed="0"/>
+      <edge id="159608" label="9606.ENSP00000370473 (pp) 9606.ENSP00000391826" source="158897" target="158804" cy:directed="0"/>
+      <edge id="159605" label="9606.ENSP00000370473 (pp) 9606.ENSP00000398632" source="158897" target="158774" cy:directed="0"/>
+      <edge id="159602" label="9606.ENSP00000370473 (pp) 9606.ENSP00000379140" source="158897" target="158786" cy:directed="0"/>
+      <edge id="159338" label="9606.ENSP00000297261 (pp) 9606.ENSP00000321797" source="158879" target="158828" cy:directed="0"/>
+      <edge id="159335" label="9606.ENSP00000297261 (pp) 9606.ENSP00000368104" source="158879" target="158954" cy:directed="0"/>
+      <edge id="159332" label="9606.ENSP00000297261 (pp) 9606.ENSP00000372170" source="158879" target="159011" cy:directed="0"/>
+      <edge id="159329" label="9606.ENSP00000297261 (pp) 9606.ENSP00000495061" source="158879" target="159005" cy:directed="0"/>
+      <edge id="159326" label="9606.ENSP00000297261 (pp) 9606.ENSP00000347684" source="158879" target="159323" cy:directed="0"/>
+      <edge id="159320" label="9606.ENSP00000297261 (pp) 9606.ENSP00000398632" source="158879" target="158774" cy:directed="0"/>
+      <edge id="159317" label="9606.ENSP00000297261 (pp) 9606.ENSP00000410294" source="158879" target="158918" cy:directed="0"/>
+      <edge id="159314" label="9606.ENSP00000297261 (pp) 9606.ENSP00000346839" source="158879" target="158846" cy:directed="0"/>
+      <edge id="159311" label="9606.ENSP00000297261 (pp) 9606.ENSP00000340226" source="158879" target="159260" cy:directed="0"/>
+      <edge id="159308" label="9606.ENSP00000297261 (pp) 9606.ENSP00000498217" source="158879" target="159305" cy:directed="0"/>
+      <edge id="159302" label="9606.ENSP00000297261 (pp) 9606.ENSP00000302111" source="158879" target="158885" cy:directed="0"/>
+      <edge id="159299" label="9606.ENSP00000297261 (pp) 9606.ENSP00000344479" source="158879" target="159296" cy:directed="0"/>
+      <edge id="159293" label="9606.ENSP00000297261 (pp) 9606.ENSP00000374205" source="158879" target="159290" cy:directed="0"/>
+      <edge id="159287" label="9606.ENSP00000297261 (pp) 9606.ENSP00000379140" source="158879" target="158786" cy:directed="0"/>
+      <edge id="158888" label="9606.ENSP00000220772 (pp) 9606.ENSP00000302111" source="158876" target="158885" cy:directed="0"/>
+      <edge id="158882" label="9606.ENSP00000220772 (pp) 9606.ENSP00000297261" source="158876" target="158879" cy:directed="0"/>
+      <edge id="159026" label="9606.ENSP00000240328 (pp) 9606.ENSP00000368104" source="158870" target="158954" cy:directed="0"/>
+      <edge id="159023" label="9606.ENSP00000240328 (pp) 9606.ENSP00000265340" source="158870" target="159020" cy:directed="0"/>
+      <edge id="159017" label="9606.ENSP00000240328 (pp) 9606.ENSP00000297261" source="158870" target="158879" cy:directed="0"/>
+      <edge id="159014" label="9606.ENSP00000240328 (pp) 9606.ENSP00000372170" source="158870" target="159011" cy:directed="0"/>
+      <edge id="159008" label="9606.ENSP00000240328 (pp) 9606.ENSP00000495061" source="158870" target="159005" cy:directed="0"/>
+      <edge id="158873" label="9606.ENSP00000217939 (pp) 9606.ENSP00000240328" source="158867" target="158870" cy:directed="0"/>
+      <edge id="158864" label="9606.ENSP00000216286 (pp) 9606.ENSP00000346839" source="158861" target="158846" cy:directed="0"/>
+      <edge id="158858" label="9606.ENSP00000207457 (pp) 9606.ENSP00000231749" source="158852" target="158855" cy:directed="0"/>
+      <edge id="159524" label="9606.ENSP00000346839 (pp) 9606.ENSP00000398632" source="158846" target="158774" cy:directed="0"/>
+      <edge id="159521" label="9606.ENSP00000346839 (pp) 9606.ENSP00000416330" source="158846" target="158810" cy:directed="0"/>
+      <edge id="159518" label="9606.ENSP00000346839 (pp) 9606.ENSP00000370473" source="158846" target="158897" cy:directed="0"/>
+      <edge id="159515" label="9606.ENSP00000346839 (pp) 9606.ENSP00000368104" source="158846" target="158954" cy:directed="0"/>
+      <edge id="159512" label="9606.ENSP00000346839 (pp) 9606.ENSP00000379140" source="158846" target="158786" cy:directed="0"/>
+      <edge id="159509" label="9606.ENSP00000346839 (pp) 9606.ENSP00000355896" source="158846" target="158822" cy:directed="0"/>
+      <edge id="159506" label="9606.ENSP00000346839 (pp) 9606.ENSP00000391826" source="158846" target="158804" cy:directed="0"/>
+      <edge id="159503" label="9606.ENSP00000346839 (pp) 9606.ENSP00000385636" source="158846" target="159500" cy:directed="0"/>
+      <edge id="159497" label="9606.ENSP00000346839 (pp) 9606.ENSP00000410294" source="158846" target="158918" cy:directed="0"/>
+      <edge id="159494" label="9606.ENSP00000346839 (pp) 9606.ENSP00000415786" source="158846" target="158966" cy:directed="0"/>
+      <edge id="159491" label="9606.ENSP00000346839 (pp) 9606.ENSP00000449404" source="158846" target="158768" cy:directed="0"/>
+      <edge id="158981" label="9606.ENSP00000226218 (pp) 9606.ENSP00000346839" source="158840" target="158846" cy:directed="0"/>
+      <edge id="158978" label="9606.ENSP00000226218 (pp) 9606.ENSP00000391826" source="158840" target="158804" cy:directed="0"/>
+      <edge id="158975" label="9606.ENSP00000226218 (pp) 9606.ENSP00000370473" source="158840" target="158897" cy:directed="0"/>
+      <edge id="158972" label="9606.ENSP00000226218 (pp) 9606.ENSP00000398632" source="158840" target="158774" cy:directed="0"/>
+      <edge id="158969" label="9606.ENSP00000226218 (pp) 9606.ENSP00000415786" source="158840" target="158966" cy:directed="0"/>
+      <edge id="158963" label="9606.ENSP00000226218 (pp) 9606.ENSP00000266085" source="158840" target="158798" cy:directed="0"/>
+      <edge id="158960" label="9606.ENSP00000226218 (pp) 9606.ENSP00000297261" source="158840" target="158879" cy:directed="0"/>
+      <edge id="158957" label="9606.ENSP00000226218 (pp) 9606.ENSP00000368104" source="158840" target="158954" cy:directed="0"/>
+      <edge id="158951" label="9606.ENSP00000226218 (pp) 9606.ENSP00000379140" source="158840" target="158786" cy:directed="0"/>
+      <edge id="158948" label="9606.ENSP00000226218 (pp) 9606.ENSP00000416330" source="158840" target="158810" cy:directed="0"/>
+      <edge id="158945" label="9606.ENSP00000226218 (pp) 9606.ENSP00000355896" source="158840" target="158822" cy:directed="0"/>
+      <edge id="158942" label="9606.ENSP00000226218 (pp) 9606.ENSP00000378131" source="158840" target="158939" cy:directed="0"/>
+      <edge id="159347" label="9606.ENSP00000297848 (pp) 9606.ENSP00000346839" source="158834" target="158846" cy:directed="0"/>
+      <edge id="159344" label="9606.ENSP00000297848 (pp) 9606.ENSP00000398632" source="158834" target="158774" cy:directed="0"/>
+      <edge id="159341" label="9606.ENSP00000297848 (pp) 9606.ENSP00000369889" source="158834" target="158780" cy:directed="0"/>
+      <edge id="159425" label="9606.ENSP00000321797 (pp) 9606.ENSP00000410294" source="158828" target="158918" cy:directed="0"/>
+      <edge id="159422" label="9606.ENSP00000321797 (pp) 9606.ENSP00000398632" source="158828" target="158774" cy:directed="0"/>
+      <edge id="159419" label="9606.ENSP00000321797 (pp) 9606.ENSP00000368104" source="158828" target="158954" cy:directed="0"/>
+      <edge id="159416" label="9606.ENSP00000321797 (pp) 9606.ENSP00000346839" source="158828" target="158846" cy:directed="0"/>
+      <edge id="159413" label="9606.ENSP00000321797 (pp) 9606.ENSP00000372170" source="158828" target="159011" cy:directed="0"/>
+      <edge id="159410" label="9606.ENSP00000321797 (pp) 9606.ENSP00000391826" source="158828" target="158804" cy:directed="0"/>
+      <edge id="159407" label="9606.ENSP00000321797 (pp) 9606.ENSP00000340226" source="158828" target="159260" cy:directed="0"/>
+      <edge id="159404" label="9606.ENSP00000321797 (pp) 9606.ENSP00000347942" source="158828" target="159401" cy:directed="0"/>
+      <edge id="159398" label="9606.ENSP00000321797 (pp) 9606.ENSP00000379140" source="158828" target="158786" cy:directed="0"/>
+      <edge id="159395" label="9606.ENSP00000321797 (pp) 9606.ENSP00000347684" source="158828" target="159323" cy:directed="0"/>
+      <edge id="159392" label="9606.ENSP00000321797 (pp) 9606.ENSP00000332879" source="158828" target="159389" cy:directed="0"/>
+      <edge id="159386" label="9606.ENSP00000321797 (pp) 9606.ENSP00000495061" source="158828" target="159005" cy:directed="0"/>
+      <edge id="159383" label="9606.ENSP00000321797 (pp) 9606.ENSP00000344479" source="158828" target="159296" cy:directed="0"/>
+      <edge id="159548" label="9606.ENSP00000355896 (pp) 9606.ENSP00000368104" source="158822" target="158954" cy:directed="0"/>
+      <edge id="159545" label="9606.ENSP00000355896 (pp) 9606.ENSP00000410294" source="158822" target="158918" cy:directed="0"/>
+      <edge id="159542" label="9606.ENSP00000355896 (pp) 9606.ENSP00000379140" source="158822" target="158786" cy:directed="0"/>
+      <edge id="159539" label="9606.ENSP00000355896 (pp) 9606.ENSP00000398632" source="158822" target="158774" cy:directed="0"/>
+      <edge id="158927" label="9606.ENSP00000222390 (pp) 9606.ENSP00000346839" source="158816" target="158846" cy:directed="0"/>
+      <edge id="158924" label="9606.ENSP00000222390 (pp) 9606.ENSP00000398632" source="158816" target="158774" cy:directed="0"/>
+      <edge id="158921" label="9606.ENSP00000222390 (pp) 9606.ENSP00000410294" source="158816" target="158918" cy:directed="0"/>
+      <edge id="158915" label="9606.ENSP00000222390 (pp) 9606.ENSP00000321797" source="158816" target="158828" cy:directed="0"/>
+      <edge id="158912" label="9606.ENSP00000222390 (pp) 9606.ENSP00000379140" source="158816" target="158786" cy:directed="0"/>
+      <edge id="158909" label="9606.ENSP00000222390 (pp) 9606.ENSP00000226218" source="158816" target="158840" cy:directed="0"/>
+      <edge id="158906" label="9606.ENSP00000222390 (pp) 9606.ENSP00000355896" source="158816" target="158822" cy:directed="0"/>
+      <edge id="158903" label="9606.ENSP00000222390 (pp) 9606.ENSP00000297261" source="158816" target="158879" cy:directed="0"/>
+      <edge id="158900" label="9606.ENSP00000222390 (pp) 9606.ENSP00000370473" source="158816" target="158897" cy:directed="0"/>
+      <edge id="158894" label="9606.ENSP00000222390 (pp) 9606.ENSP00000266085" source="158816" target="158798" cy:directed="0"/>
+      <edge id="158891" label="9606.ENSP00000222390 (pp) 9606.ENSP00000391826" source="158816" target="158804" cy:directed="0"/>
+      <edge id="159659" label="9606.ENSP00000391826 (pp) 9606.ENSP00000410294" source="158804" target="158918" cy:directed="0"/>
+      <edge id="159656" label="9606.ENSP00000391826 (pp) 9606.ENSP00000415579" source="158804" target="159653" cy:directed="0"/>
+      <edge id="159650" label="9606.ENSP00000391826 (pp) 9606.ENSP00000437621" source="158804" target="159203" cy:directed="0"/>
+      <edge id="159227" label="9606.ENSP00000266085 (pp) 9606.ENSP00000360973" source="158798" target="159224" cy:directed="0"/>
+      <edge id="159221" label="9606.ENSP00000266085 (pp) 9606.ENSP00000346839" source="158798" target="158846" cy:directed="0"/>
+      <edge id="159218" label="9606.ENSP00000266085 (pp) 9606.ENSP00000302111" source="158798" target="158885" cy:directed="0"/>
+      <edge id="159215" label="9606.ENSP00000266085 (pp) 9606.ENSP00000284984" source="158798" target="159212" cy:directed="0"/>
+      <edge id="159209" label="9606.ENSP00000266085 (pp) 9606.ENSP00000379140" source="158798" target="158786" cy:directed="0"/>
+      <edge id="159647" label="9606.ENSP00000379140 (pp) 9606.ENSP00000398632" source="158786" target="158774" cy:directed="0"/>
+      <edge id="159644" label="9606.ENSP00000379140 (pp) 9606.ENSP00000422591" source="158786" target="159641" cy:directed="0"/>
+      <edge id="159638" label="9606.ENSP00000379140 (pp) 9606.ENSP00000391826" source="158786" target="158804" cy:directed="0"/>
+      <edge id="159590" label="9606.ENSP00000369889 (pp) 9606.ENSP00000398632" source="158780" target="158774" cy:directed="0"/>
+      <edge id="159689" label="9606.ENSP00000398632 (pp) 9606.ENSP00000410294" source="158774" target="158918" cy:directed="0"/>
+      <edge id="159686" label="9606.ENSP00000398632 (pp) 9606.ENSP00000437621" source="158774" target="159203" cy:directed="0"/>
+      <edge id="159683" label="9606.ENSP00000398632 (pp) 9606.ENSP00000416330" source="158774" target="158810" cy:directed="0"/>
+      <edge id="159680" label="9606.ENSP00000398632 (pp) 9606.ENSP00000418525" source="158774" target="159377" cy:directed="0"/>
+      <edge id="159677" label="9606.ENSP00000398632 (pp) 9606.ENSP00000449404" source="158774" target="158768" cy:directed="0"/>
+      <edge id="159674" label="9606.ENSP00000398632 (pp) 9606.ENSP00000480322" source="158774" target="159671" cy:directed="0"/>
+      <edge id="159719" label="9606.ENSP00000449404 (pp) 9606.ENSP00000484472" source="158768" target="159716" cy:directed="0"/>
+      <edge id="158849" label="9606.ENSP00000052754 (pp) 9606.ENSP00000346839" source="158738" target="158846" cy:directed="0"/>
+      <edge id="158843" label="9606.ENSP00000052754 (pp) 9606.ENSP00000226218" source="158738" target="158840" cy:directed="0"/>
+      <edge id="158837" label="9606.ENSP00000052754 (pp) 9606.ENSP00000297848" source="158738" target="158834" cy:directed="0"/>
+      <edge id="158831" label="9606.ENSP00000052754 (pp) 9606.ENSP00000321797" source="158738" target="158828" cy:directed="0"/>
+      <edge id="158825" label="9606.ENSP00000052754 (pp) 9606.ENSP00000355896" source="158738" target="158822" cy:directed="0"/>
+      <edge id="158819" label="9606.ENSP00000052754 (pp) 9606.ENSP00000222390" source="158738" target="158816" cy:directed="0"/>
+      <edge id="158813" label="9606.ENSP00000052754 (pp) 9606.ENSP00000416330" source="158738" target="158810" cy:directed="0"/>
+      <edge id="158807" label="9606.ENSP00000052754 (pp) 9606.ENSP00000391826" source="158738" target="158804" cy:directed="0"/>
+      <edge id="158801" label="9606.ENSP00000052754 (pp) 9606.ENSP00000266085" source="158738" target="158798" cy:directed="0"/>
+      <edge id="158795" label="9606.ENSP00000052754 (pp) 9606.ENSP00000366246" source="158738" target="158792" cy:directed="0"/>
+      <edge id="158789" label="9606.ENSP00000052754 (pp) 9606.ENSP00000379140" source="158738" target="158786" cy:directed="0"/>
+      <edge id="158783" label="9606.ENSP00000052754 (pp) 9606.ENSP00000369889" source="158738" target="158780" cy:directed="0"/>
+      <edge id="158777" label="9606.ENSP00000052754 (pp) 9606.ENSP00000398632" source="158738" target="158774" cy:directed="0"/>
+      <edge id="158771" label="9606.ENSP00000052754 (pp) 9606.ENSP00000449404" source="158738" target="158768" cy:directed="0"/>
+      <edge id="158744" label="9606.ENSP00000052754 (pp) 9606.ENSP00000360120" source="158738" target="158741" cy:directed="0"/>
+    </graph>
+  </att>
+</graph>

@@ -1,0 +1,60 @@
+Rede_LRRK2_Isogenic_UP_lim5 default  edge,0,SUID,false
+Rede_LRRK2_Isogenic_UP_lim5 default  edge,1,shared name,true
+Rede_LRRK2_Isogenic_UP_lim5 default  edge,2,selected,false
+Rede_LRRK2_Isogenic_UP_lim5 default  edge,3,shared interaction,true
+Rede_LRRK2_Isogenic_UP_lim5 default  edge,4,name,true
+Rede_LRRK2_Isogenic_UP_lim5 default  edge,5,interaction,true
+Rede_LRRK2_Isogenic_UP_lim5 default  edge,6,stringdb::score,true
+Rede_LRRK2_Isogenic_UP_lim5 default  edge,7,stringdb::interspecies,true
+Rede_LRRK2_Isogenic_UP_lim5 default  edge,8,stringdb::neighborhood,true
+Rede_LRRK2_Isogenic_UP_lim5 default  edge,9,stringdb::fusion,true
+Rede_LRRK2_Isogenic_UP_lim5 default  edge,10,stringdb::cooccurrence,true
+Rede_LRRK2_Isogenic_UP_lim5 default  edge,11,stringdb::coexpression,true
+Rede_LRRK2_Isogenic_UP_lim5 default  edge,12,stringdb::experiments,true
+Rede_LRRK2_Isogenic_UP_lim5 default  edge,13,stringdb::databases,true
+Rede_LRRK2_Isogenic_UP_lim5 default  edge,14,stringdb::textmining,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  edge,0,SUID,false
+Rede_LRRK2_Isogenic_DOWN_lim5 default  edge,1,shared name,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  edge,2,selected,false
+Rede_LRRK2_Isogenic_DOWN_lim5 default  edge,3,shared interaction,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  edge,4,name,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  edge,5,interaction,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  edge,6,stringdb::score,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  edge,7,stringdb::interspecies,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  edge,8,stringdb::neighborhood,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  edge,9,stringdb::fusion,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  edge,10,stringdb::cooccurrence,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  edge,11,stringdb::coexpression,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  edge,12,stringdb::experiments,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  edge,13,stringdb::databases,true
+Rede_LRRK2_Isogenic_DOWN_lim5 default  edge,14,stringdb::textmining,true
+Rede_LRRK2_Isogenic_UP_lim15 default  edge,0,SUID,false
+Rede_LRRK2_Isogenic_UP_lim15 default  edge,1,shared name,true
+Rede_LRRK2_Isogenic_UP_lim15 default  edge,2,selected,false
+Rede_LRRK2_Isogenic_UP_lim15 default  edge,3,shared interaction,true
+Rede_LRRK2_Isogenic_UP_lim15 default  edge,4,name,true
+Rede_LRRK2_Isogenic_UP_lim15 default  edge,5,interaction,true
+Rede_LRRK2_Isogenic_UP_lim15 default  edge,6,stringdb::score,true
+Rede_LRRK2_Isogenic_UP_lim15 default  edge,7,stringdb::interspecies,true
+Rede_LRRK2_Isogenic_UP_lim15 default  edge,8,stringdb::neighborhood,true
+Rede_LRRK2_Isogenic_UP_lim15 default  edge,9,stringdb::fusion,true
+Rede_LRRK2_Isogenic_UP_lim15 default  edge,10,stringdb::cooccurrence,true
+Rede_LRRK2_Isogenic_UP_lim15 default  edge,11,stringdb::coexpression,true
+Rede_LRRK2_Isogenic_UP_lim15 default  edge,12,stringdb::experiments,true
+Rede_LRRK2_Isogenic_UP_lim15 default  edge,13,stringdb::databases,true
+Rede_LRRK2_Isogenic_UP_lim15 default  edge,14,stringdb::textmining,true
+Rede_LRRK2_Isogenic_UP_lim10 default  edge,0,SUID,false
+Rede_LRRK2_Isogenic_UP_lim10 default  edge,1,shared name,true
+Rede_LRRK2_Isogenic_UP_lim10 default  edge,2,selected,false
+Rede_LRRK2_Isogenic_UP_lim10 default  edge,3,shared interaction,true
+Rede_LRRK2_Isogenic_UP_lim10 default  edge,4,name,true
+Rede_LRRK2_Isogenic_UP_lim10 default  edge,5,interaction,true
+Rede_LRRK2_Isogenic_UP_lim10 default  edge,6,stringdb::score,true
+Rede_LRRK2_Isogenic_UP_lim10 default  edge,7,stringdb::interspecies,true
+Rede_LRRK2_Isogenic_UP_lim10 default  edge,8,stringdb::neighborhood,true
+Rede_LRRK2_Isogenic_UP_lim10 default  edge,9,stringdb::fusion,true
+Rede_LRRK2_Isogenic_UP_lim10 default  edge,10,stringdb::cooccurrence,true
+Rede_LRRK2_Isogenic_UP_lim10 default  edge,11,stringdb::coexpression,true
+Rede_LRRK2_Isogenic_UP_lim10 default  edge,12,stringdb::experiments,true
+Rede_LRRK2_Isogenic_UP_lim10 default  edge,13,stringdb::databases,true
+Rede_LRRK2_Isogenic_UP_lim10 default  edge,14,stringdb::textmining,true
